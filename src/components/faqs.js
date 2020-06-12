@@ -6,8 +6,6 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-// eslint-disable-next-line import/no-unresolved
-import "../styles/extra.css";
 import "react-accessible-accordion/dist/fancy-example.css";
 
 
