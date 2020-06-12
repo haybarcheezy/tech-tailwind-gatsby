@@ -8,6 +8,7 @@ import {
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
 
+
 const Faqs = () => {
   return (
     <div className="pt-10 bg-gray-100">
@@ -43,7 +44,7 @@ const Faqs = () => {
                 <AccordionItem className="mb-2 outline-none">
                   <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg font-medium text-black text-gray-800 bg-white rounded-md shadow-md outline-none cursor-pointer hover:bg-white">
                     <AccordionItemButton className="flex-auto outline-none accordion__button">
-                    <p className="py-3 pl-0 md:pl-4">How to install it with windows server ?</p>
+                    <p className="inline-flex pl-0 md:pl-4">How to install it with windows server ?</p>
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal">
@@ -58,7 +59,7 @@ const Faqs = () => {
                 <AccordionItem className="mb-2 outline-none">
                   <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg font-medium text-black text-gray-800 bg-white rounded-md shadow-md outline-none cursor-pointer hover:bg-white">
                     <AccordionItemButton className="flex-auto outline-none accordion__button">
-                    <p className="py-3 pl-0 md:pl-4">How to install it with windows server ?</p>
+                    <p className="inline-flex pl-0 md:pl-4">How to install it with windows server ?</p>
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal">
@@ -73,7 +74,7 @@ const Faqs = () => {
                 <AccordionItem className="mb-2 outline-none">
                   <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg font-medium text-black text-gray-800 bg-white rounded-md shadow-md outline-none cursor-pointer hover:bg-white">
                     <AccordionItemButton className="flex-auto outline-none accordion__button">
-                      <p className="py-3 pl-0 md:pl-4">How to install it with windows server ?</p>
+                      <p className="inline-flex pl-0 md:pl-4">How to install it with windows server ?</p>
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal accordion__panel">
