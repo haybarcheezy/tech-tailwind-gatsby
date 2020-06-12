@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import AboutTitlebar from "../components/abouttitlebar"
+import AboutTitlebar from "../components/abouttitlebar";
 import HomeContent from "../components/homecontent";
 import Faqs from "../components/faqs";
 

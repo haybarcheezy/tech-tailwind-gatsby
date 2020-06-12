@@ -20,7 +20,9 @@ function Contact() {
           <h1 className="text-4xl lg:text-4xl font-bold title-font text-gray-900 text-center">
             Contact
           </h1>
-          <p className="leading-relaxed mb-5 text-gray-600 text-center">Send A Message</p>
+          <p className="leading-relaxed mb-5 text-gray-600 text-center">
+            Send A Message
+          </p>
           <input
             className="bg-white rounded border border-gray-400 focus:outline-none focus:border-blue-500 text-base px-4 py-2 mb-4"
             placeholder="Name"

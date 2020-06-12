@@ -7,9 +7,7 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 
-
 const Faqs = () => {
-
   return (
     <div className="pt-10 bg-gray-100">
       <div className="max-w-6xl mx-auto">
@@ -28,13 +26,14 @@ const Faqs = () => {
               <Accordion allowZeroExpanded={true} className="px-4 py-1">
                 <AccordionItem className="mb-2 outline-none">
                   <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg font-medium text-black text-gray-800 bg-white rounded-md shadow-md outline-none cursor-pointer hover:bg-white">
-                    <AccordionItemButton className="flex-auto outline-none accordion__button">
-                    <p className="py-3 pl-0 md:pl-4">How to install it with windows server ?</p>
+                    <AccordionItemButton className="flex-auto outline-none select-none accordion__button">
+                      <p className="py-3 pl-0 md:pl-4">
+                        How to install it with windows server ?
+                      </p>
                     </AccordionItemButton>
                   </AccordionItemHeading>
-                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal slidein">
-                  Lorem, ipsum dolor sit amet consectetur
-                  adipisicing elit
+                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal select-none slidein">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit
                     Mollitia temporibus doloremque non eligendi unde ipsam?
                     Voluptatibus, suscipit deserunt quidem delectus perferendis
                     velit molestias, veritatis officia fugiat cumque quaerat
@@ -43,13 +42,14 @@ const Faqs = () => {
                 </AccordionItem>
                 <AccordionItem className="mb-2 outline-none">
                   <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg font-medium text-black text-gray-800 bg-white rounded-md shadow-md outline-none cursor-pointer hover:bg-white">
-                    <AccordionItemButton className="flex-auto outline-none accordion__button">
-                    <p className="py-3 pl-0 md:pl-4">How to install it with windows server ?</p>
+                    <AccordionItemButton className="flex-auto outline-none select-none accordion__button">
+                      <p className="py-3 pl-0 md:pl-4">
+                        How to install it with windows server ?
+                      </p>
                     </AccordionItemButton>
                   </AccordionItemHeading>
-                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal">
-                  Lorem, ipsum dolor sit amet consectetur
-                  adipisicing elit
+                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal select-none">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit
                     Mollitia temporibus doloremque non eligendi unde ipsam?
                     Voluptatibus, suscipit deserunt quidem delectus perferendis
                     velit molestias, veritatis officia fugiat cumque quaerat
@@ -58,13 +58,14 @@ const Faqs = () => {
                 </AccordionItem>
                 <AccordionItem className="mb-2 outline-none">
                   <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg font-medium text-black text-gray-800 bg-white rounded-md shadow-md outline-none cursor-pointer hover:bg-white">
-                    <AccordionItemButton className="flex-auto outline-none accordion__button">
-                    <p className="py-3 pl-0 md:pl-4">How to install it with windows server ?</p>
+                    <AccordionItemButton className="flex-auto outline-none select-none accordion__button">
+                      <p className="py-3 pl-0 md:pl-4">
+                        How to install it with windows server ?
+                      </p>
                     </AccordionItemButton>
                   </AccordionItemHeading>
-                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal">
-                  Lorem, ipsum dolor sit amet consectetur
-                  adipisicing elit
+                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal select-none">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit
                     Mollitia temporibus doloremque non eligendi unde ipsam?
                     Voluptatibus, suscipit deserunt quidem delectus perferendis
                     velit molestias, veritatis officia fugiat cumque quaerat
@@ -73,13 +74,14 @@ const Faqs = () => {
                 </AccordionItem>
                 <AccordionItem className="mb-2 outline-none">
                   <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg font-medium text-black text-gray-800 bg-white rounded-md shadow-md outline-none cursor-pointer hover:bg-white">
-                    <AccordionItemButton className="flex-auto outline-none accordion__button">
-                      <p className="py-3 pl-0 md:pl-4">How to install it with windows server ?</p>
+                    <AccordionItemButton className="flex-auto outline-none select-none accordion__button">
+                      <p className="py-3 pl-0 md:pl-4">
+                        How to install it with windows server ?
+                      </p>
                     </AccordionItemButton>
                   </AccordionItemHeading>
-                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal accordion__panel">
-                  Lorem, ipsum dolor sit amet consectetur
-                  adipisicing elit
+                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal select-none accordion__panel">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit
                     Mollitia temporibus doloremque non eligendi unde ipsam?
                     Voluptatibus, suscipit deserunt quidem delectus perferendis
                     velit molestias, veritatis officia fugiat cumque quaerat
@@ -87,7 +89,6 @@ const Faqs = () => {
                   </AccordionItemPanel>
                 </AccordionItem>
               </Accordion>
-              
             </div>
           </div>
         </div>
