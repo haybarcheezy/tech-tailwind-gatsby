@@ -36,6 +36,15 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["HelveticaNowDisplay, HelveticaNowText"],
+          urls: ["/fonts/fonts.css"]
+        }
+      }
+    },
     `gatsby-plugin-offline`,
   ],
 };

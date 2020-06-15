@@ -4,13 +4,13 @@ import Heroimg from "../images/heroimg.jpg";
 const Hero = () => {
   return (
     <div className="flex bg-white" style={{ height: "700px" }}>
-      <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
+      <div className="flex items-center px-8 text-center lg:text-left md:px-12 lg:w-1/2">
         <div>
-          <h2 className="text-6xl lg:text-6xl font-bold leading-tight text-left">
+          <h1 className="text-6xl font-black leading-tight text-left lg:text-6xl">
             Simplify the Complex.
-          </h2>
-          <div className="w-20 h-2 bg-blue-500 my-4"></div>
-          <p className="mt-6 text-sm text-gray-500 md:text-base text-left">
+          </h1>
+          <div className="w-20 h-2 my-4 bg-blue-500"></div>
+          <p className="mt-6 text-sm text-left text-gray-500 md:text-base">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
             commodi cum cupiditate ducimus, fugit harum id necessitatibus odio
             quam quasi, quibusdam rem tempora voluptates. Cumque debitis
@@ -19,13 +19,13 @@ const Hero = () => {
           <div className="flex justify-start mt-6">
             <a
               href={"/"}
-              className="px-4 py-3 bg-gray-900 text-gray-200 text-s font-semibold rounded hover:bg-gray-800"
+              className="px-4 py-3 font-semibold text-gray-200 bg-gray-900 rounded text-s hover:bg-gray-800"
             >
               Get Started
             </a>
             <a
               href={"/"}
-              className="mx-4 px-4 py-3 bg-gray-300 text-gray-900 text-s font-semibold rounded hover:bg-gray-400"
+              className="px-4 py-3 mx-4 font-semibold text-gray-900 bg-gray-300 rounded text-s hover:bg-gray-400"
             >
               Learn More
             </a>
@@ -37,7 +37,7 @@ const Hero = () => {
         style={{ clipPath: "polygon(10% 0, 100% 0%, 100% 100%, 0 100%)" }}
       >
         <div
-          className="h-full object-cover"
+          className="object-cover h-full"
           style={{
             backgroundImage: `url(${Heroimg})`,
             backgroundSize: "cover",

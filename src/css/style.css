@@ -1,4 +1,25 @@
 @import "tailwindcss/base";
+
+h1 {
+  @apply font-display;
+}
+h2 {
+  @apply font-display;
+}
+h3 {
+  @apply font-display;
+}
+a {
+  @apply font-display;
+}
+p {
+  @apply font-body;
+}
+span {
+  @apply font-display;
+}
+
+
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 

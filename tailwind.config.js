@@ -234,11 +234,6 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        "system-ui",
-        "-apple-system",
-        "BlinkMacSystemFont",
-        '"Segoe UI"',
-        "Roboto",
         '"Helvetica Neue"',
         "Arial",
         '"Noto Sans"',
@@ -257,6 +252,8 @@ module.exports = {
         '"Courier New"',
         "monospace",
       ],
+      display: ["HelveticaNowDisplay", "sans-serif"],
+      'body': ['HelveticaNowText', 'sans-serif']
     },
     fontSize: {
       xs: "0.75rem",
@@ -666,7 +663,7 @@ module.exports = {
     flexWrap: ["responsive"],
     float: ["responsive"],
     clear: ["responsive"],
-    fontFamily: ["responsive"],
+    fontFamily: ["responsive", "hover", "focus"],
     fontSize: ["responsive"],
     fontSmoothing: ["responsive"],
     fontStyle: ["responsive"],
