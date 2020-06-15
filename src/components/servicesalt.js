@@ -3,8 +3,8 @@ import { Link } from "gatsby";
 import { Icon } from "@iconify/react";
 import cloudDownloadOutlined from "@iconify/icons-ant-design/cloud-download-outlined";
 import deploymentUnitOutlined from "@iconify/icons-ant-design/deployment-unit-outlined";
-import hddOutlined from "@iconify/icons-ant-design/hdd-outlined";
-import securityScanOutlined from "@iconify/icons-ant-design/security-scan-outlined";
+import hddTwotone from "@iconify/icons-ant-design/hdd-twotone";
+import securityScanTwotone from "@iconify/icons-ant-design/security-scan-twotone";
 import codeOutlined from "@iconify/icons-ant-design/code-outlined";
 import syncOutlined from "@iconify/icons-ant-design/sync-outlined";
 
@@ -29,7 +29,7 @@ const ServicesAlt = () => {
                     className="p-2 text-blue-500"
                   />
                 </div>
-                <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
+                <h2 className="mb-2 text-lg font-bold text-gray-900 ">
                   Shooting Stars
                 </h2>
                 <p className="text-sm leading-narrow">
@@ -48,7 +48,7 @@ const ServicesAlt = () => {
                   className="p-2 text-blue-500"
                 />
               </div>
-              <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
+              <h2 className="mb-2 text-lg font-bold text-gray-900 ">
                 The Catalyzer
               </h2>
               <p className="text-sm leading-narrow">
@@ -62,12 +62,12 @@ const ServicesAlt = () => {
             <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
               <div className="inline-flex items-center justify-center mb-4 rounded-full">
                 <Icon
-                  icon={hddOutlined}
+                  icon={hddTwotone}
                   style={{ fontSize: "100px" }}
                   className="p-2 text-blue-500"
                 />
               </div>
-              <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
+              <h2 className="mb-2 text-lg font-bold text-gray-900 ">
                 Melanchole
               </h2>
               <p className="text-sm leading-narrow">
@@ -81,12 +81,12 @@ const ServicesAlt = () => {
             <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
               <div className="inline-flex items-center justify-center mb-4 rounded-full">
                 <Icon
-                  icon={securityScanOutlined}
+                  icon={securityScanTwotone}
                   style={{ fontSize: "100px" }}
                   className="p-2 text-blue-500"
                 />
               </div>
-              <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
+              <h2 className="mb-2 text-lg font-bold text-gray-900 ">
                 Bunker
               </h2>
               <p className="text-sm leading-narrow">
@@ -105,7 +105,7 @@ const ServicesAlt = () => {
                   className="p-2 text-blue-500"
                 />
               </div>
-              <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
+              <h2 className="mb-2 text-lg font-bold text-gray-900 ">
                 Melanchole
               </h2>
               <p className="text-sm leading-narrow">
@@ -124,7 +124,7 @@ const ServicesAlt = () => {
                   className="p-2 text-blue-500"
                 />
               </div>
-              <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
+              <h2 className="mb-2 text-lg font-bold text-gray-900 ">
                 Bunker
               </h2>
               <p className="text-sm leading-narrow">

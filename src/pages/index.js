@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Hero from "../components/hero";
 import SEO from "../components/seo";
 import Banner from "../components/banner";
-import Services from "../components/services";
+import ServicesAlt from "../components/servicesalt";
 import Contact from "../components/contact";
 import Quote from "../components/quote";
 import Blog from "../components/blog";
@@ -17,7 +17,7 @@ function IndexPage() {
       />
       <Hero />
       <Banner />
-      <Services />
+      <ServicesAlt />
       <Quote />
       <Blog />
       <Contact />
