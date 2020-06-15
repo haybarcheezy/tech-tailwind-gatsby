@@ -5,27 +5,25 @@ function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="z-50 w-full bg-white navbar-expand-lg bg-white fixed shadow-sm">
-      <div className="w-full md:flex items-center justify-between px-8 md:px-12 border-b border-gray-200">
-        <div className="flex justify-between items-center  lg:static lg:block lg:justify-start">
+    <header className="fixed z-50 w-full bg-white shadow-sm navbar-expand-lg">
+      <div className="items-center justify-between w-full px-8 border-b border-gray-200 md:flex md:px-12">
+        <div className="flex items-center justify-between lg:static lg:block lg:justify-start">
           <Link
             to="/"
-            className="text-sm font-bold leading-relaxed inline-flex mr-4 py-2 whitespace-no-wrap uppercase text-white"
+            className="inline-flex py-2 mr-4 text-sm font-bold leading-relaxed text-white uppercase whitespace-no-wrap"
           >
-            <svg
-              width="44"
-              height="51"
-              viewBox="0 0 44 51"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M7.15257 9.18025L0 13.2647L0.152719 13.3535L0 13.2659V38.4703L21.9154 50.75L43.5958 38.3521V13.3234L21.9154 0.75L14.5556 4.95276V5.00744V10.767V13.2096L21.7824 9.09674L36.3535 17.4399V34.2436L21.7824 42.7043L7.15257 34.2436V10.767V9.23511V9.18025ZM21.7824 17.4986L28.9505 21.6702V30.0133L21.7824 34.1261L14.5556 30.0133V21.7289L21.7824 17.4986Z"
-                fill="#4299E1"
-              />
-            </svg>
+            <svg width="40" height="42" viewBox="0 0 40 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.0018 1.3125L14.3184 4.52691V11.0955L20.0018 7.83449L31.5 14L37 10.6L20.0018 1.3125Z" fill="#093B9F"/>
+<path d="M20.0018 21.158L15 17.2L20.0018 14.5894L25 17.2L20.0018 21.158Z" fill="#093B9F"/>
+<path d="M20.0018 1.3125L14.3184 4.52691V11.0955L20.0018 7.83449L31.5 14L37 10.6L20.0018 1.3125Z" stroke="#093B9F"/>
+<path d="M20.0018 21.158L15 17.2L20.0018 14.5894L25 17.2L20.0018 21.158Z" stroke="#093B9F"/>
+<path d="M8.35532 14.6145L2.35352 11.5884L2.67187 31.1738L19.5 40.5V38L19.9552 34.7609L19.5 34.5L8.35532 27.8197V14.6145Z" fill="#5C8FF4" stroke="#5C8FF4"/>
+<path d="M8.35562 7.97461L2.7998 11L8.35562 14.4966V7.97461Z" fill="#093B9F" stroke="#093B9F"/>
+<path d="M31.6023 14.4962L37.3789 11.375L37.2857 31.1739L20.5 40.5V34.5L31.6023 27.8197V14.4962Z" fill="#1C64F2" stroke="#1C64F2"/>
+<path d="M14.5 24.5V18L19.5 21V27.5L14.5 24.5Z" fill="#5C8FF4" stroke="#5C8FF4"/>
+<path d="M25.5 24.5V18L20.4997 20.9999V27.5L25.5 24.5Z" fill="#1C64F2" stroke="#1C64F2"/>
+</svg>
+
           </Link>
 
           <button
@@ -46,44 +44,44 @@ function Header() {
         <nav
           className={`${isExpanded ? `block` : `hidden`} lg:flex items-center`}
         >
-          <ul className="flex flex-col lg:flex-row list-none lg:ml-auto my-4 w-full md:auto float-right md:my-0">
-            <li className="nav-item md:my-0 my-2 text-center">
+          <ul className="flex flex-col float-right w-full my-4 list-none lg:flex-row lg:ml-auto md:auto md:my-0">
+            <li className="my-2 text-center nav-item md:my-0">
               <Link
                 to="/"
-                className="inline-block font-medium text-gray-700 rounded no-underline hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2"
+                className="inline-block px-2 py-2 font-medium text-gray-700 no-underline rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2"
                 href="#pablo"
               >
                 Home
               </Link>
             </li>
-            <li className="nav-item md:my-0 my-2 text-center">
+            <li className="my-2 text-center nav-item md:my-0">
               <Link
                 to="/about"
-                className="inline-block font-medium text-gray-700 rounded no-underline hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2"
+                className="inline-block px-2 py-2 font-medium text-gray-700 no-underline rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2"
               >
                 About
               </Link>
             </li>
-            <li className="nav-item md:my-0 my-2 text-center">
+            <li className="my-2 text-center nav-item md:my-0">
               <Link
-                to="/about"
-                className="inline-block font-medium text-gray-700  rounded no-underline hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2"
+                to="/services/"
+                className="inline-block px-2 py-2 font-medium text-gray-700 no-underline rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2"
               >
                 Services
               </Link>
             </li>
-            <li className="nav-item md:my-0 my-2 text-center">
+            <li className="my-2 text-center nav-item md:my-0">
               <Link
                 to="/"
-                className="inline-block font-medium text-gray-700 rounded no-underline hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2"
+                className="inline-block px-2 py-2 font-medium text-gray-700 no-underline rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium md:mx-2"
               >
                 Resources
               </Link>
             </li>
-            <li className="nav-item md:border-l md:border-gray-200 md:mr-2 md:my-0 my-2 text-center">
+            <li className="my-2 text-center nav-item md:border-l md:border-gray-200 md:mr-2 md:my-0">
               <Link
                 to="/contact"
-                className="md:ml-4 inline-flex font-medium text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded"
+                className="inline-flex px-6 py-2 font-medium text-gray-700 bg-gray-200 border-0 rounded md:ml-4 focus:outline-none hover:bg-gray-300"
               >
                 Contact
               </Link>

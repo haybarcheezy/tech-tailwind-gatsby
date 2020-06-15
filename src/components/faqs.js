@@ -9,7 +9,7 @@ import {
 
 const Faqs = () => {
   return (
-    <div className="pt-10 bg-gray-100">
+    <div className="py-10 bg-gray-100">
       <div className="max-w-6xl mx-auto">
         <div className="p-2 bg-gray-100 rounded">
           <div className="flex flex-col md:flex-row">
@@ -32,7 +32,7 @@ const Faqs = () => {
                       </p>
                     </AccordionItemButton>
                   </AccordionItemHeading>
-                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal select-none slidein">
+                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal select-none accordion__panel">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit
                     Mollitia temporibus doloremque non eligendi unde ipsam?
                     Voluptatibus, suscipit deserunt quidem delectus perferendis
@@ -48,7 +48,7 @@ const Faqs = () => {
                       </p>
                     </AccordionItemButton>
                   </AccordionItemHeading>
-                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal select-none">
+                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal select-none accordion__panel">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit
                     Mollitia temporibus doloremque non eligendi unde ipsam?
                     Voluptatibus, suscipit deserunt quidem delectus perferendis
@@ -64,7 +64,7 @@ const Faqs = () => {
                       </p>
                     </AccordionItemButton>
                   </AccordionItemHeading>
-                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal select-none">
+                  <AccordionItemPanel className="p-4 mb-5 text-sm antialiased text-left whitespace-normal select-none accordion__panel">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit
                     Mollitia temporibus doloremque non eligendi unde ipsam?
                     Voluptatibus, suscipit deserunt quidem delectus perferendis

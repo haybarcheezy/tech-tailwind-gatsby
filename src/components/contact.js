@@ -13,37 +13,57 @@ function Contact() {
     );
   }
   return (
-    <section className="text-gray-700 body-font relative">
+    <section className="relative text-gray-700 body-font">
       <Iframe iframe={iframe} />
-      <div className="container px-5 py-24 mx-auto flex">
-        <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-lg border-gray-200 border">
-          <h1 className="text-4xl lg:text-4xl font-bold title-font text-gray-900 text-center">
+      <div className="container flex px-5 py-24 mx-auto">
+        <div className="relative z-10 flex flex-col w-full p-8 mt-10 bg-white border border-gray-200 rounded-lg shadow-lg lg:w-1/2 md:w-1/2 md:ml-auto md:mt-0">
+          <h1 className="text-4xl font-extrabold leading-9 tracking-tight text-center text-gray-900 sm:leading-10">
             Contact
           </h1>
-          <p className="leading-relaxed mb-5 text-gray-600 text-center">
+          <p className="mt-2 mb-5 text-center">
             Send A Message
           </p>
+          <label className="block mb-2 text-sm font-bold text-gray-700">
+            Name
+          </label>
           <input
-            className="bg-white rounded border border-gray-400 focus:outline-none focus:border-blue-500 text-base px-4 py-2 mb-4"
-            placeholder="Name"
+            className="px-4 py-2 mb-4 text-base bg-white border border-gray-400 rounded focus:outline-none focus:border-blue-500"
+            placeholder="First and Last"
             type="name"
           />
+          <label className="block mb-2 text-sm font-bold text-gray-700">
+            Email
+          </label>
           <input
-            className="bg-white rounded border border-gray-400 focus:outline-none focus:border-blue-500 text-base px-4 py-2 mb-4"
-            placeholder="Email"
+            className="px-4 py-2 mb-4 text-base bg-white border border-gray-400 rounded focus:outline-none focus:border-blue-500"
+            placeholder="Jondoe@example.com"
             type="email"
           />
+          <label className="block mb-2 text-sm font-bold text-gray-700">
+            Company
+          </label>
+          <input
+            className="px-4 py-2 mb-4 text-base bg-white border border-gray-400 rounded focus:outline-none focus:border-blue-500"
+            placeholder="Barnett Technology LLC"
+            type="company"
+          />
+          <label className="block mb-2 text-sm font-bold text-gray-700">
+            Message
+          </label>
           <textarea
-            className="bg-white rounded border border-gray-400 focus:outline-none h-32 focus:border-blue-500 text-base px-4 py-2 mb-4 resize-none"
-            placeholder="Message"
+            className="h-32 px-4 py-2 mb-4 text-base bg-white border border-gray-400 rounded resize-none focus:outline-none focus:border-blue-500"
+            placeholder="Type your message here..."
           ></textarea>
-          <button className="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
-            Button
+          <label className="block mb-2 text-sm font-bold text-gray-700">
+            GDPR Consent
+          </label>
+          <div className="inline-flex mb-4">
+          <input className="my-auto mr-2 leading-tight bg-blue-400 cursor-pointer" type="checkbox" />
+          <p className="text-xs text-gray-600">I consent to having this website store my submitted information so they can respond to my inquiry.</p>
+          </div>
+          <button className="px-6 py-2 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600">
+            Submit
           </button>
-          <p className="text-xs text-gray-500 mt-3">
-            Chicharrones blog helvetica normcore iceland tousled brook viral
-            artisan.
-          </p>
         </div>
       </div>
     </section>

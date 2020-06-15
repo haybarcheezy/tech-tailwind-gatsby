@@ -15,8 +15,8 @@ function Layout({ children }) {
 
       <main>{children}</main>
 
-      <footer className="block py-4 pt-12 bg-gray-300 relative">
-        <div className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20">
+      <footer className="relative block py-4 pt-12 bg-gray-300">
+        <div className="absolute top-0 left-0 right-0 bottom-auto w-full -mt-20 overflow-hidden pointer-events-none">
           <svg
             className="absolute bottom-0 overflow-hidden"
             xmlns="http://www.w3.org/2000/svg"
@@ -32,17 +32,17 @@ function Layout({ children }) {
             ></polygon>
           </svg>
         </div>
-        <div className="container mx-auto px-4">
+        <div className="container px-4 mx-auto">
           <div className="flex flex-wrap">
-            <div className="w-full lg:w-6/12 px-4">
+            <div className="w-full px-4 lg:w-6/12">
               <h4 className="text-2xl font-semibold">Barnett Technologies</h4>
-              <h5 className="text-base mt-0 mb-2 text-gray-700">
+              <h5 className="mt-0 mb-2 text-base text-gray-700">
                 A beautiful extension for TailwindCSS.
               </h5>
               <div className="mt-6">
                 <a
                   href="https://facebook.com/"
-                  className="p-2 bg-white shadow-lg items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
+                  className="items-center justify-center inline-block p-2 mr-2 text-center bg-white rounded-full shadow-lg outline-none align-center focus:outline-none"
                 >
                   <Icon
                     icon={facebookFilled}
@@ -51,7 +51,7 @@ function Layout({ children }) {
                 </a>
                 <a
                   href="https://linkedin.com/"
-                  className="p-2 bg-white shadow-lg items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
+                  className="items-center justify-center inline-block p-2 mr-2 text-center bg-white rounded-full shadow-lg outline-none align-center focus:outline-none"
                 >
                   <Icon
                     icon={linkedinFilled}
@@ -60,7 +60,7 @@ function Layout({ children }) {
                 </a>
                 <a
                   href="https://github.com/"
-                  className="p-2 bg-white shadow-lg items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
+                  className="items-center justify-center inline-block p-2 mr-2 text-center bg-white rounded-full shadow-lg outline-none align-center focus:outline-none"
                 >
                   <Icon
                     icon={githubFilled}
@@ -68,7 +68,7 @@ function Layout({ children }) {
                   />
                 </a>
               </div>
-              <p className="text-sm mt-6 text-gray-600 font-semibold">
+              <p className="mt-6 text-sm font-semibold text-gray-600">
                 Currently v1.0.0. Code
                 <a href="#blank" className="text-gray-700">
                   {" "}
@@ -82,17 +82,17 @@ function Layout({ children }) {
                 .
               </p>
             </div>
-            <div className="w-full lg:w-6/12 px-4">
-              <div className="flex flex-wrap items-top mb-6">
-                <div className="w-full md:w-6/12 xl:w-4/12 pt-6 md:pt-0 md:px-4 ml-auto">
-                  <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
+            <div className="w-full px-4 lg:w-6/12">
+              <div className="flex flex-wrap mb-6 items-top">
+                <div className="w-full pt-6 ml-auto md:w-6/12 xl:w-4/12 md:pt-0 md:px-4">
+                  <span className="block mb-2 text-sm font-semibold text-gray-600 uppercase">
                     Useful Links
                   </span>
                   <ul className="list-unstyled">
                     <li>
                       <a
                         href="#blank"
-                        className="text-gray-700 hover:text-gray-900 font-regular block pb-2 text-sm"
+                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
                       >
                         Home
                       </a>
@@ -100,7 +100,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="text-gray-700 hover:text-gray-900 font-regular block pb-2 text-sm"
+                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
                       >
                         About
                       </a>
@@ -108,7 +108,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="text-gray-700 hover:text-gray-900 font-regular block pb-2 text-sm"
+                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
                       >
                         Services
                       </a>
@@ -116,7 +116,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="text-gray-700 hover:text-gray-900 font-regular block pb-2 text-sm"
+                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
                       >
                         Resources
                       </a>
@@ -124,22 +124,22 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="text-gray-700 hover:text-gray-900 font-regular block pb-2 text-sm"
+                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
                       >
                         Contact
                       </a>
                     </li>
                   </ul>
                 </div>
-                <div className="w-full md:w-6/12 xl:w-4/12 pt-6 md:pt-0 md:px-4 ml-auto">
-                  <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
+                <div className="w-full pt-6 ml-auto md:w-6/12 xl:w-4/12 md:pt-0 md:px-4">
+                  <span className="block mb-2 text-sm font-semibold text-gray-600 uppercase">
                     Other Resources
                   </span>
                   <ul className="list-unstyled">
                     <li>
                       <a
                         href="#blank"
-                        className="text-gray-700 hover:text-gray-900 font-regular block pb-2 text-sm"
+                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
                       >
                         MIT License
                       </a>
@@ -147,7 +147,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="text-gray-700 hover:text-gray-900 font-regular block pb-2 text-sm"
+                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
                       >
                         Privacy Policy
                       </a>
@@ -155,7 +155,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="text-gray-700 hover:text-gray-900 font-regular block pb-2 text-sm"
+                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
                       >
                         Terms & Conditions
                       </a>
@@ -166,9 +166,9 @@ function Layout({ children }) {
             </div>
           </div>
           <hr className="my-4 border-gray-400"></hr>
-          <div className="flex flex-wrap items-center md:justify-between justify-center">
-            <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-              <div className="text-sm text-gray-600 font-semibold py-1">
+          <div className="flex flex-wrap items-center justify-center md:justify-between">
+            <div className="w-full px-4 mx-auto text-center md:w-4/12">
+              <div className="py-1 text-sm font-semibold text-gray-600">
                 Copyright ©
                 <a
                   href="https://github.com"

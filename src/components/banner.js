@@ -2,19 +2,19 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="bg-blue-900 text-center py-4 lg:px-4">
+    <div className="py-4 text-center bg-blue-900 lg:px-4">
       <div
-        className="md:mx-0 mx-4 p-2 bg-blue-800 items-center text-blue-100 leading-none rounded-full flex lg:inline-flex"
+        className="flex items-center p-2 mx-4 leading-none text-white transition duration-500 ease-in-out transform bg-blue-800 rounded-full shadow-md cursor-pointer hover:shadow-lg hover:scale-105 md:mx-0 lg:inline-flex"
         role="alert"
       >
-        <span className="flex rounded-full bg-blue-500 uppercase px-2 py-1 text-xs font-bold mr-3">
+        <span className="flex px-2 py-1 mr-3 text-xs font-bold uppercase bg-blue-500 rounded-full">
           New
         </span>
-        <span className="font-semibold mr-2 text-center flex-auto">
+        <span className="flex-auto mr-2 font-semibold text-center">
           Subscribe to our monthly newsletter
         </span>
         <svg
-          className="fill-current opacity-75 h-4 w-4"
+          className="w-4 h-4 opacity-75 fill-current"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
         >
