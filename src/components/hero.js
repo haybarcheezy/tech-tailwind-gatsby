@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import Heroimg from "../images/heroimg.jpg";
 
 const Hero = () => {
@@ -17,18 +18,17 @@ const Hero = () => {
             dignissimos id quam vel!
           </p>
           <div className="flex justify-start mt-6">
-            <a
-              href={"/"}
+            <Link
+              t0="/contact/"
               className="px-4 py-3 font-semibold text-gray-200 bg-gray-900 rounded text-s hover:bg-gray-800"
             >
               Get Started
-            </a>
-            <a
-              href={"/"}
+            </Link>
+            <Link to="/services/"
               className="px-4 py-3 mx-4 font-semibold text-gray-900 bg-gray-300 rounded text-s hover:bg-gray-400"
             >
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
       </div>

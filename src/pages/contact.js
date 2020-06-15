@@ -3,7 +3,6 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import ContactTitlebar from "../components/contacttitlebar";
-import ServicesAlt from "../components/servicesalt";
 import { Icon } from "@iconify/react";
 import mailTwotone from '@iconify/icons-ant-design/mail-twotone';
 import phoneTwotone from '@iconify/icons-ant-design/phone-twotone';
