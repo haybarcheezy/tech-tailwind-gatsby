@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "gatsby";
 
 const Banner = () => {
   return (
     <div className="py-4 text-center bg-blue-900 lg:px-4">
+      <Link to="/contact">
       <div
         className="flex items-center p-2 mx-4 leading-none text-white transition duration-500 ease-in-out transform bg-blue-800 rounded-full shadow-md cursor-pointer hover:shadow-lg hover:scale-105 md:mx-0 lg:inline-flex"
         role="alert"
@@ -21,6 +23,7 @@ const Banner = () => {
           <path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z" />
         </svg>
       </div>
+      </Link>
     </div>
   );
 };
