@@ -14,6 +14,9 @@ const ServicesDescription = () => {
         </div>
         <div className="flex flex-col flex-wrap -mb-10 lg:py-6 lg:w-1/2 lg:pl-12">
           <div className="flex flex-col flex-wrap w-full mb-2 text-left">
+            <h4 className="font-bold leading-9 text-blue-400 md: text-md sm:leading-10">
+              This is a small intro
+            </h4>
             <h2 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 sm:leading-10">
               Heading Filler
             </h2>
@@ -43,7 +46,7 @@ const ServicesDescription = () => {
         </div>
       </div>
       <div className="container flex flex-wrap px-5 py-24 mx-auto border-t border-gray-300">
-      <div className="order-first w-full mb-10 overflow-hidden rounded-lg sm:order-last md:order-last lg:w-1/2 lg:mb-0">
+        <div className="order-first w-full mb-10 overflow-hidden rounded-lg sm:order-last md:order-last lg:w-1/2 lg:mb-0">
           <img
             alt="feature"
             className="object-cover object-center w-full h-full"
@@ -52,6 +55,9 @@ const ServicesDescription = () => {
         </div>
         <div className="flex flex-col flex-wrap -mb-10 lg:py-6 lg:w-1/2 lg:pr-12 ">
           <div className="flex flex-col flex-wrap w-full mb-2 text-left">
+            <h4 className="font-bold leading-9 text-blue-400 md: text-md sm:leading-10">
+              This is a small intro
+            </h4>
             <h2 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 sm:leading-10">
               Heading Filler
             </h2>
@@ -90,6 +96,9 @@ const ServicesDescription = () => {
         </div>
         <div className="flex flex-col flex-wrap -mb-10 lg:py-6 lg:w-1/2 lg:pl-12">
           <div className="flex flex-col flex-wrap w-full mb-2 text-left">
+            <h4 className="font-bold leading-9 text-blue-400 md: text-md sm:leading-10">
+              This is a small intro
+            </h4>
             <h2 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 sm:leading-10">
               Heading Filler
             </h2>
@@ -119,7 +128,7 @@ const ServicesDescription = () => {
         </div>
       </div>
       <div className="container flex flex-wrap px-5 py-24 mx-auto border-t border-gray-300">
-      <div className="order-first w-full mb-10 overflow-hidden rounded-lg sm:order-last md:order-last lg:w-1/2 lg:mb-0">
+        <div className="order-first w-full mb-10 overflow-hidden rounded-lg sm:order-last md:order-last lg:w-1/2 lg:mb-0">
           <img
             alt="feature"
             className="object-cover object-center w-full h-full"
@@ -128,6 +137,9 @@ const ServicesDescription = () => {
         </div>
         <div className="flex flex-col flex-wrap -mb-10 lg:py-6 lg:w-1/2 lg:pr-12 ">
           <div className="flex flex-col flex-wrap w-full mb-2 text-left">
+            <h4 className="font-bold leading-9 text-blue-400 md: text-md sm:leading-10">
+              This is a small intro
+            </h4>
             <h2 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 sm:leading-10">
               Heading Filler
             </h2>

@@ -20,7 +20,7 @@ const ServicesAlt = () => {
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="p-4 xl:w-1/3 md:w-1/3">
-            <Link to="/">
+            <Link to="/services">
               <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
                 <div className="inline-flex items-center justify-center mb-4 rounded-full">
                   <Icon
@@ -39,7 +39,7 @@ const ServicesAlt = () => {
             </Link>
           </div>
           <div className="p-4 xl:w-1/3 md:w-1/3">
-          <Link to="/">
+          <Link to="/services">
             <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
               <div className="inline-flex items-center justify-center mb-4 rounded-full">
                 <Icon
@@ -58,7 +58,7 @@ const ServicesAlt = () => {
             </Link>
           </div>
           <div className="p-4 xl:w-1/3 md:w-1/3">
-          <Link to="/">
+          <Link to="/services">
             <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
               <div className="inline-flex items-center justify-center mb-4 rounded-full">
                 <Icon
@@ -77,7 +77,7 @@ const ServicesAlt = () => {
             </Link>
           </div>
           <div className="p-4 xl:w-1/3 md:w-1/3">
-          <Link to="/">
+          <Link to="/services">
             <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
               <div className="inline-flex items-center justify-center mb-4 rounded-full">
                 <Icon
@@ -96,7 +96,7 @@ const ServicesAlt = () => {
             </Link>
           </div>
           <div className="p-4 xl:w-1/3 md:w-1/3">
-          <Link to="/">
+          <Link to="/services">
             <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
               <div className="inline-flex items-center justify-center mb-4 rounded-full">
                 <Icon
@@ -115,7 +115,7 @@ const ServicesAlt = () => {
             </Link>
           </div>
           <div className="p-4 xl:w-1/3 md:w-1/3">
-          <Link to="/">
+          <Link to="/services">
             <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
               <div className="inline-flex items-center justify-center mb-4 rounded-full">
                 <Icon

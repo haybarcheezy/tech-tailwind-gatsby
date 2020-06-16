@@ -108,7 +108,7 @@ function Header() {
             <li className="my-2 text-center nav-item md:my-0">
               <Link
                 activeClassName="text-blue-500"
-                to="/services/"
+                to="/services"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Services

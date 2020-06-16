@@ -10,7 +10,7 @@ function ServicesPage() {
     <Layout>
       <SEO
         keywords={[`gatsby`, `consulting`, `react`, `tailwindcss`]}
-        title="services"
+        title="Services"
       />
       <ServicesTitlebar />
       <ServicesDescription />
