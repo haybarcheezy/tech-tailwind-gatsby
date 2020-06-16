@@ -19,13 +19,13 @@ const Hero = () => {
           </p>
           <div className="flex justify-start mt-6">
             <Link
-              t0="/contact"
-              className="px-4 py-3 font-semibold text-gray-200 bg-gray-900 rounded cursor-pointer text-s hover:bg-gray-800"
+              to="/services"
+              className="px-4 py-3 font-semibold text-gray-200 bg-gray-900 rounded text-s hover:bg-gray-800"
             >
               Get Started
             </Link>
-            <Link to="/services"
-              className="px-4 py-3 mx-4 font-semibold text-gray-900 bg-gray-300 rounded cursor-pointer text-s hover:bg-gray-400"
+            <Link to="/about"
+              className="px-4 py-3 mx-4 font-semibold text-gray-900 bg-gray-300 rounded text-s hover:bg-gray-400"
             >
               Learn More
             </Link>

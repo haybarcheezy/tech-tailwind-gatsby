@@ -23,7 +23,7 @@ const Quote = () => {
             pariatur.
           </p>
           <span className="inline-block w-10 h-1 mt-8 mb-6 bg-blue-500 rounded"></span>
-          <h2 className="text-sm font-medium tracking-wider text-gray-900 title-font">
+          <h2 className="text-sm font-medium tracking-tight text-gray-900 title-font">
             JON BARNETT
           </h2>
           <p className="text-gray-500">Senior Whatever Position</p>

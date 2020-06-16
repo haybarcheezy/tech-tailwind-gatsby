@@ -16,7 +16,7 @@ const Blog = () => {
           <div className="flex flex-col overflow-hidden transition duration-500 ease-in-out transform rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
             <div className="flex flex-col justify-between flex-1 p-6 bg-white">
               <div className="flex-1">
-                <p className="text-sm font-medium leading-5 text-blue-500">
+                <p className="text-sm font-bold leading-5 text-blue-500">
                   <a href="#" className="hover:underline">
                     Blog
                   </a>
@@ -50,9 +50,9 @@ const Blog = () => {
                   </a>
                 </div>
                 <div className="ml-3">
-                  <p className="text-sm font-medium leading-5 text-gray-900">
-                    <a href="#" className="hover:underline">
-                      Roel Aufderhar
+                  <p className="text-sm font-bold leading-5 text-gray-900">
+                    <a href="#" className="hover:underline ">
+                      Author Name
                     </a>
                   </p>
                   <div className="flex text-sm leading-5 text-gray-500">
@@ -67,7 +67,7 @@ const Blog = () => {
           <div className="flex flex-col overflow-hidden transition duration-500 ease-in-out transform rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
             <div className="flex flex-col justify-between flex-1 p-6 bg-white">
               <div className="flex-1">
-                <p className="text-sm font-medium leading-5 text-blue-500">
+                <p className="text-sm font-bold leading-5 text-blue-500">
                   <a href="#" className="hover:underline">
                     Blog
                   </a>
@@ -103,7 +103,7 @@ const Blog = () => {
                 <div className="ml-3">
                   <p className="text-sm font-medium leading-5 text-gray-900">
                     <a href="#" className="hover:underline">
-                      Brenna Goyette
+                      Author Name
                     </a>
                   </p>
                   <div className="flex text-sm leading-5 text-gray-500">
@@ -118,7 +118,7 @@ const Blog = () => {
           <div className="flex flex-col overflow-hidden transition duration-500 ease-in-out transform rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
             <div className="flex flex-col justify-between flex-1 p-6 bg-white">
               <div className="flex-1">
-                <p className="text-sm font-medium leading-5 text-blue-500">
+                <p className="text-sm font-bold leading-5 text-blue-500">
                   <a href="#" className="hover:underline">
                     {" "}
                     Case Study
@@ -155,7 +155,7 @@ const Blog = () => {
                 <div className="ml-3">
                   <p className="text-sm font-medium leading-5 text-gray-900">
                     <a href="#" className="hover:underline">
-                      Daniela Metz
+                      Author Name
                     </a>
                   </p>
                   <div className="flex text-sm leading-5 text-gray-500">
