@@ -13,7 +13,7 @@ const Banner = () => {
           New
         </span>
         <span className="flex-auto mr-2 font-semibold text-center">
-          Subscribe to our monthly newsletter
+          Join to our monthly newsletter
         </span>
         <svg
           className="w-4 h-4 opacity-75 fill-current"
