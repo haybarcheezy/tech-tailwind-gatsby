@@ -234,6 +234,10 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        "system-ui",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        '"Segoe UI"',
         '"Helvetica Neue"',
         "Arial",
         '"Noto Sans"',
@@ -251,9 +255,7 @@ module.exports = {
         '"Liberation Mono"',
         '"Courier New"',
         "monospace",
-      ],
-      display: ["HelveticaNowDisplay", "sans-serif"],
-      'body': ['HelveticaNowText', 'sans-serif']
+      ]
     },
     fontSize: {
       xs: "0.75rem",

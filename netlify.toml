@@ -1,3 +1,13 @@
 [build]
   command = "npm run build"
   publish = "public/"
+
+[build.processing]
+  skip_processing = true
+
+[context.public.processing.css]
+  skip_processing = false
+
+[context.public.processing.css]
+  bundle = true
+  minify = true
