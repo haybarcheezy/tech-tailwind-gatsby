@@ -15,19 +15,17 @@ function Contact() {
   return (
     <section className="relative text-gray-700 body-font">
       <Iframe iframe={iframe} />
-      <div className="container flex px-5 py-24 mx-auto">
+      <div className="container flex px-4 py-24 mx-auto md:px-5">
         <div className="relative z-10 flex flex-col w-full p-8 mt-10 bg-white border border-gray-200 rounded-lg shadow-lg lg:w-1/2 md:w-1/2 md:ml-auto md:mt-0">
           <h1 className="text-4xl font-extrabold leading-9 tracking-tight text-center text-gray-900 sm:leading-10">
             Contact
           </h1>
-          <p className="mt-2 mb-5 text-center">
-            Send A Message
-          </p>
+          <p className="mt-2 mb-5 text-center">Send A Message</p>
           <label className="block mb-2 text-sm font-bold text-gray-700">
             Name
           </label>
           <input
-            className="px-4 py-2 mb-4 text-base bg-white border border-gray-400 rounded focus:outline-none focus:border-blue-500"
+            className="px-4 py-2 mb-4 form-input"
             placeholder="First and Last"
             type="name"
           />
@@ -35,7 +33,7 @@ function Contact() {
             Email
           </label>
           <input
-            className="px-4 py-2 mb-4 text-base bg-white border border-gray-400 rounded focus:outline-none focus:border-blue-500"
+            className="px-4 py-2 mb-4 form-input"
             placeholder="Jondoe@example.com"
             type="email"
           />
@@ -43,23 +41,42 @@ function Contact() {
             Company
           </label>
           <input
-            className="px-4 py-2 mb-4 text-base bg-white border border-gray-400 rounded focus:outline-none focus:border-blue-500"
+            className="px-4 py-2 mb-4 form-input"
             placeholder="Barnett Technology LLC"
             type="company"
           />
           <label className="block mb-2 text-sm font-bold text-gray-700">
+            Select your line of business.
+          </label>
+          <select className="px-4 py-2 mb-4 form-select">
+            <option></option>
+            <option>Information Technology</option>
+            <option>Oil & Gas</option>
+            <option>Financial Services</option>
+            <option>Mangement</option>
+            <option>Marketing</option>
+            <option>Development</option>
+            <option>Other</option>
+          </select>
+          <label className="block mb-2 text-sm font-bold text-gray-700">
             Message
           </label>
           <textarea
-            className="h-32 px-4 py-2 mb-4 text-base bg-white border border-gray-400 rounded resize-none focus:outline-none focus:border-blue-500"
+            className="h-32 px-4 py-2 mb-4 form-textarea"
             placeholder="Type your message here..."
           ></textarea>
           <label className="block mb-2 text-sm font-bold text-gray-700">
             GDPR Consent
           </label>
           <div className="inline-flex mb-4">
-          <input className="my-auto mr-2 leading-tight bg-blue-400 cursor-pointer" type="checkbox" />
-          <p className="text-xs text-gray-600">I consent to having this website store my submitted information so they can respond to my inquiry.</p>
+            <input
+              className="w-4 h-4 my-auto mr-2 form-checkbox"
+              type="checkbox"
+            />
+            <p className="text-xs text-gray-600">
+              I consent to having this website store my submitted information so
+              they can respond to my inquiry.
+            </p>
           </div>
           <button className="px-6 py-2 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600">
             Submit

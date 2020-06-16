@@ -91,7 +91,7 @@ function Header() {
               <Link
                 to="/"
                 activeClassName="text-blue-500"
-                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
+                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Home
               </Link>
@@ -100,7 +100,7 @@ function Header() {
               <Link
                 activeClassName="text-blue-500"
                 to="/about"
-                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
+                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 About
               </Link>
@@ -109,7 +109,7 @@ function Header() {
               <Link
                 activeClassName="text-blue-500"
                 to="/services"
-                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
+                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Services
               </Link>
@@ -118,7 +118,7 @@ function Header() {
               <Link
                 activeClassName="text-blue-500"
                 to="/resources"
-                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
+                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Resources
               </Link>
@@ -127,7 +127,7 @@ function Header() {
               <Link
                 activeClassName="text-blue-500"
                 to="/contact"
-                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
+                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Contact
               </Link>
@@ -135,7 +135,7 @@ function Header() {
             <li className="px-2 ml-0 md:ml-auto">
               <input
                 type="search"
-                className="invisible h-10 px-5 pr-16 text-sm bg-white border border-gray-300 rounded-lg md:visible focus:outline-none"
+                className="invisible h-10 px-5 pr-16 form-input md:visible focus:outline-none"
                 name="search"
                 placeholder="Search..."
               ></input>

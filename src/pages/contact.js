@@ -18,11 +18,11 @@ function ContactPage() {
         title="Contact"
       />
       <ContactTitlebar />
-      <div className="container flex px-5 py-24 mx-auto">
+      <div className="container flex px-0 py-24 mx-auto md:px-5">
         <div className="flex flex-wrap w-full">
           <div className="flex-col flex-wrap w-full sm:w-1/2 md:px-12 lg:w-1/2">
             <div className="w-full">
-              <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
+              <div className="p-6 mx-4 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer md:mx-0 hover:shadow-lg hover:-translate-y-1 hover:scale-105">
               <div className="inline-flex items-center justify-center mb-4 rounded-full">
                   <Icon
                     icon={mailTwotone}
@@ -37,7 +37,7 @@ function ContactPage() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet.
                 </p>
               </div>
-              <div className="p-6 mt-4 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
+              <div className="p-6 mx-4 mt-4 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg md:mx-0 hover:-translate-y-1 hover:scale-105">
               <div className="inline-flex items-center justify-center mb-4 rounded-full">
                   <Icon
                     icon={phoneTwotone}
@@ -52,7 +52,7 @@ function ContactPage() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet.
                 </p>
               </div>
-              <div className="p-6 mt-4 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
+              <div className="p-6 mx-4 mt-4 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg md:mx-0 hover:-translate-y-1 hover:scale-105">
               <div className="inline-flex items-center justify-center mb-4 rounded-full">
                   <Icon
                     icon={calendarTwotone}
@@ -80,7 +80,7 @@ function ContactPage() {
             Name
           </label>
           <input
-            className="px-4 py-2 mb-4 text-base bg-white border border-gray-400 rounded focus:outline-none focus:border-blue-500"
+            className="px-4 py-2 mb-4 form-input"
             placeholder="First and Last"
             type="name"
           />
@@ -88,7 +88,7 @@ function ContactPage() {
             Email
           </label>
           <input
-            className="px-4 py-2 mb-4 text-base bg-white border border-gray-400 rounded focus:outline-none focus:border-blue-500"
+            className="px-4 py-2 mb-4 form-input"
             placeholder="Jondoe@example.com"
             type="email"
           />
@@ -96,7 +96,7 @@ function ContactPage() {
             Company
           </label>
           <input
-            className="px-4 py-2 mb-4 text-base bg-white border border-gray-400 rounded focus:outline-none focus:border-blue-500"
+            className="px-4 py-2 mb-4 form-input"
             placeholder="Barnett Technology LLC"
             type="company"
           />
@@ -104,14 +104,14 @@ function ContactPage() {
             Message
           </label>
           <textarea
-            className="h-32 px-4 py-2 mb-4 text-base bg-white border border-gray-400 rounded resize-none focus:outline-none focus:border-blue-500"
+            className="h-32 px-4 py-2 mb-4 form-textarea"
             placeholder="Type your message here..."
           ></textarea>
           <label className="block mb-2 text-sm font-bold text-gray-700">
             GDPR Consent
           </label>
           <div className="inline-flex mb-4">
-          <input className="my-auto mr-2 leading-tight bg-blue-400 cursor-pointer" type="checkbox" />
+          <input className="w-4 h-4 my-auto mr-2 form-checkbox" type="checkbox" />
           <p className="text-xs text-gray-600">I consent to having this website store my submitted information so they can respond to my inquiry.</p>
           </div>
           <button className="px-6 py-2 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600">

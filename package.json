@@ -16,7 +16,6 @@
     "gatsby-plugin-preload-link-crossorigin": "^1.0.2",
     "gatsby-plugin-react-helmet": "3.3.3",
     "gatsby-plugin-sharp": "2.6.10",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
     "prop-types": "15.7.2",
     "react": "^16.13.1",
     "react-accessible-accordion": "^3.0.1",
@@ -31,7 +30,8 @@
     "gatsby",
     "tailwind",
     "tailwindcss",
-    "purgecss"
+    "purgecss",
+    "IT Consulting"
   ],
   "license": "MIT",
   "scripts": {

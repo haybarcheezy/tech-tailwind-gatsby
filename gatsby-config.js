@@ -37,15 +37,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        custom: {
-          families: ["HelveticaNowDisplay, HelveticaNowText"],
-          urls: ["/fonts/fonts.css"],
-        },
-      },
-    },
-    {
       resolve: "gatsby-plugin-netlify",
       options: {
         headers: {}, // option to add more headers. `Link` headers are transformed by the below criteria
