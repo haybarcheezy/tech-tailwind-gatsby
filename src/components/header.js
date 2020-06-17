@@ -1,4 +1,4 @@
-import { Link } from "gatsby";
+import { Link, NavLink } from "gatsby";
 import React, { useState } from "react";
 import { Icon } from "@iconify/react";
 import twitterOutlined from "@iconify/icons-ant-design/twitter-outlined";
@@ -88,54 +88,54 @@ function Header() {
         >
           <ul className="flex flex-col w-full my-4 list-none v-middle lg:flex-row md:auto md:my-0">
             <li className="my-2 text-center nav-item md:my-0">
-              <Link
+              <NavLink
                 exact
                 to="/"
                 activeClassName="text-blue-500"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li className="my-2 text-center nav-item md:my-0">
-              <Link
+              <NavLink
                 activeClassName="text-blue-500"
                 exact
                 to="/about"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 About
-              </Link>
+              </NavLink>
             </li>
             <li className="my-2 text-center nav-item md:my-0">
-              <Link
+              <NavLink
                 activeClassName="text-blue-500"
                 exact
                 to="/services"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Services
-              </Link>
+              </NavLink>
             </li>
             <li className="my-2 text-center nav-item md:my-0">
-              <Link
+              <NavLink
                 activeClassName="text-blue-500"
                 exact
                 to="/resources"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Resources
-              </Link>
+              </NavLink>
             </li>
             <li className="my-2 text-center nav-item md:my-0">
-              <Link
+              <NavLink
                 activeClassName="text-blue-500"
                 exact
                 to="/contact"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Contact
-              </Link>
+              </NavLink>
             </li>
             <li className="px-2 ml-0 md:ml-auto">
               <input
