@@ -53,6 +53,11 @@ module.exports = {
         cachePublic: false,
       },
     },
-    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/about`, `/services`, `/resources`, `/contact`]
+      }
+    }
   ],
 };

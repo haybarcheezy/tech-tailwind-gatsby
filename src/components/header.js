@@ -89,6 +89,7 @@ function Header() {
           <ul className="flex flex-col w-full my-4 list-none v-middle lg:flex-row md:auto md:my-0">
             <li className="my-2 text-center nav-item md:my-0">
               <Link
+                exact
                 to="/"
                 activeClassName="text-blue-500"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
@@ -99,6 +100,7 @@ function Header() {
             <li className="my-2 text-center nav-item md:my-0">
               <Link
                 activeClassName="text-blue-500"
+                exact
                 to="/about"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -108,6 +110,7 @@ function Header() {
             <li className="my-2 text-center nav-item md:my-0">
               <Link
                 activeClassName="text-blue-500"
+                exact
                 to="/services"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -117,6 +120,7 @@ function Header() {
             <li className="my-2 text-center nav-item md:my-0">
               <Link
                 activeClassName="text-blue-500"
+                exact
                 to="/resources"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -126,6 +130,7 @@ function Header() {
             <li className="my-2 text-center nav-item md:my-0">
               <Link
                 activeClassName="text-blue-500"
+                exact
                 to="/contact"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
