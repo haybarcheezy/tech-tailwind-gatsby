@@ -21,13 +21,16 @@ function Contact() {
             Contact
           </h1>
           <p className="mt-2 mb-5 text-center">Send A Message</p>
+          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact" />
           <label className="block mb-2 text-sm font-bold text-gray-700">
             Name
           </label>
           <input
             className="px-4 py-2 mb-4 form-input"
             placeholder="First and Last"
-            type="name"
+            type="text"
+            name="name"
           />
           <label className="block mb-2 text-sm font-bold text-gray-700">
             Email
@@ -36,6 +39,7 @@ function Contact() {
             className="px-4 py-2 mb-4 form-input"
             placeholder="Jondoe@example.com"
             type="email"
+            name="email"
           />
           <label className="block mb-2 text-sm font-bold text-gray-700">
             Company
@@ -43,20 +47,21 @@ function Contact() {
           <input
             className="px-4 py-2 mb-4 form-input"
             placeholder="Barnett Technology LLC"
-            type="company"
+            type="text"
+            name="company"
           />
           <label className="block mb-2 text-sm font-bold text-gray-700">
             Select your line of business.
           </label>
-          <select className="px-4 py-2 mb-4 form-select">
+          <select name="industy" className="px-4 py-2 mb-4 form-select">
             <option></option>
-            <option>Information Technology</option>
-            <option>Oil & Gas</option>
-            <option>Financial Services</option>
-            <option>Mangement</option>
-            <option>Marketing</option>
-            <option>Development</option>
-            <option>Other</option>
+            <option value="I.T.">Information Technology</option>
+            <option value="Oil & Gas">Oil & Gas</option>
+            <option value="Finance">Financial Services</option>
+            <option value="Management">Mangement</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Development">Development</option>
+            <option value="Other...">Other</option>
           </select>
           <label className="block mb-2 text-sm font-bold text-gray-700">
             Message
@@ -64,6 +69,8 @@ function Contact() {
           <textarea
             className="h-32 px-4 py-2 mb-4 form-textarea"
             placeholder="Type your message here..."
+            type="text"
+            name="message"
           ></textarea>
           <label className="block mb-2 text-sm font-bold text-gray-700">
             GDPR Consent
@@ -78,9 +85,10 @@ function Contact() {
               they can respond to my inquiry.
             </p>
           </div>
-          <button className="px-6 py-2 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600">
+          <button type="submit" className="px-6 py-2 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600">
             Submit
           </button>
+          </form>
         </div>
       </div>
     </section>
