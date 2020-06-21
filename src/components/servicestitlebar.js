@@ -1,14 +1,14 @@
 import React from "react";
-import BuildingsImg from "../images/buildings.jpg";
+import WorkersImg from "../images/engineers.jpg";
 
 const ServicesTitlebar = () => {
   return (
     <section
       className="text-gray-700 border-t border-gray-200 body-font"
       style={{
-        backgroundImage: `url(${BuildingsImg})`,
+        backgroundImage: `url(${WorkersImg})`,
         backgroundSize: "cover",
-        backgroundPosition: "center center",
+        backgroundPosition: "center bottom",
         backgroundRepeat: "no-repeat",
       }}
     >

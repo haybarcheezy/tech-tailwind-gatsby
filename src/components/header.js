@@ -90,7 +90,7 @@ function Header() {
             <li className="my-2 text-center nav-item md:my-0">
               <Link
                 to="/"
-                activeClassName="text-blue-500"
+                activeStyle={{ color: "#1c64f2"}}
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Home
@@ -98,7 +98,7 @@ function Header() {
             </li>
             <li className="my-2 text-center nav-item md:my-0">
               <Link
-                activeClassName="text-blue-500"
+                activeStyle={{ color: "#1c64f2"}}
                 to="/about/"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -107,7 +107,7 @@ function Header() {
             </li>
             <li className="my-2 text-center nav-item md:my-0">
               <Link
-                activeClassName="text-blue-500"
+                activeStyle={{ color: "#1c64f2"}}
                 to="/services/"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -116,7 +116,7 @@ function Header() {
             </li>
             <li className="my-2 text-center nav-item md:my-0">
               <Link
-                activeClassName="text-blue-500"
+                activeStyle={{ color: "#1c64f2"}}
                 to="/resources/"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -125,7 +125,7 @@ function Header() {
             </li>
             <li className="my-2 text-center nav-item md:my-0">
               <Link
-                activeClassName="text-blue-500"
+                activeStyle={{ color: "#1c64f2"}}
                 to="/contact/"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -135,7 +135,7 @@ function Header() {
             <li className="px-2 ml-0 md:ml-auto">
               <input
                 type="search"
-                className="invisible h-10 px-5 pr-16 form-input md:visible focus:outline-none"
+                className="invisible h-10 px-5 form-input md:visible focus:outline-none"
                 name="search"
                 placeholder="Search..."
               ></input>

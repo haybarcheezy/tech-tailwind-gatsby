@@ -76,47 +76,89 @@ function ContactPage() {
           <p className="mt-2 mb-5 text-center">
             Please fill out the form below.
           </p>
+          <form className="w-full max-w-lg mx-auto mt-4" name="contact-page" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact" />
+          <div className="flex flex-wrap">
+          <div className="w-full px-2 md:w-1/2">
           <label className="block mb-2 text-sm font-bold text-gray-700">
             Name
           </label>
           <input
-            className="px-4 py-2 mb-4 form-input"
+            className="w-full px-4 py-2 mb-4 leading-tight form-input"
             placeholder="First and Last"
-            type="name"
+            type="text"
+            name="name"
           />
+          </div>
+          <div className="w-full px-2 md:w-1/2">
           <label className="block mb-2 text-sm font-bold text-gray-700">
             Email
           </label>
           <input
-            className="px-4 py-2 mb-4 form-input"
+            className="w-full px-4 py-2 mb-4 leading-tight form-input"
             placeholder="Jondoe@example.com"
             type="email"
+            name="email"
           />
+          </div>
+          </div>
+          <div className="flex flex-wrap">
+          <div className="w-full px-2 md:w-1/2">
           <label className="block mb-2 text-sm font-bold text-gray-700">
             Company
           </label>
           <input
-            className="px-4 py-2 mb-4 form-input"
+            className="w-full px-2 py-2 mb-4 leading-tight form-input"
             placeholder="Barnett Technology LLC"
-            type="company"
+            type="text"
+            name="company"
           />
+          </div>
+          <div className="w-full px-2 md:w-1/2">
+          <label className="block mb-2 text-sm font-bold text-gray-700">
+            Select your line of business.
+          </label>
+          <select name="industy" className="w-full px-4 py-2 mb-4 leading-tight form-select">
+            <option></option>
+            <option value="I.T.">Information Technology</option>
+            <option value="Oil & Gas">Oil & Gas</option>
+            <option value="Finance">Financial Services</option>
+            <option value="Management">Mangement</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Development">Development</option>
+            <option value="Other...">Other</option>
+          </select>
+          </div>
+          </div>
+          <div className="px-2">
           <label className="block mb-2 text-sm font-bold text-gray-700">
             Message
           </label>
           <textarea
-            className="h-32 px-4 py-2 mb-4 form-textarea"
+            className="w-full h-32 px-4 py-2 mb-4 form-textarea"
             placeholder="Type your message here..."
+            type="text"
+            name="message"
           ></textarea>
           <label className="block mb-2 text-sm font-bold text-gray-700">
             GDPR Consent
           </label>
-          <div className="inline-flex mb-4">
-          <input className="w-4 h-4 my-auto mr-2 form-checkbox" type="checkbox" />
-          <p className="text-xs text-gray-600">I consent to having this website store my submitted information so they can respond to my inquiry.</p>
           </div>
-          <button className="px-6 py-2 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600">
+          <div className="inline-flex mb-4">
+            <input
+              className="w-4 h-4 my-auto mr-2 leading-tight form-checkbox"
+              type="checkbox"
+            />
+            <p className="text-xs text-gray-600">
+              I consent to having this website store my submitted information so
+              they can respond to my inquiry.
+            </p>
+          </div>
+          <button type="submit" className="w-full py-2 mt-4 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600">
             Submit
           </button>
+          </form>
+          
         </div>
         </div>
       </div>
