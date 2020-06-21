@@ -8,7 +8,7 @@ function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <header className="fixed z-50 w-full bg-gray-900 md:shadow-md md:bg-white navbar-expand-lg">
+    <header className="fixed z-50 w-full bg-gray-900 shadow-sm md:bg-white md:shadow-md navbar-expand-lg">
       <div className="items-center justify-between w-full px-8 border-b border-gray-900 md:border-gray-200 md:flex md:px-12">
         <div className="flex items-center justify-between lg:static lg:block lg:justify-start">
           <Link
@@ -89,7 +89,6 @@ function Header() {
           <ul className="flex flex-col w-full my-4 list-none v-middle lg:flex-row md:auto md:my-0">
             <li className="my-2 text-center nav-item md:my-0">
               <Link
-                exact
                 to="/"
                 activeClassName="text-blue-500"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
@@ -100,7 +99,6 @@ function Header() {
             <li className="my-2 text-center nav-item md:my-0">
               <Link
                 activeClassName="text-blue-500"
-                exact
                 to="/about/"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -110,7 +108,6 @@ function Header() {
             <li className="my-2 text-center nav-item md:my-0">
               <Link
                 activeClassName="text-blue-500"
-                exact
                 to="/services/"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -120,7 +117,6 @@ function Header() {
             <li className="my-2 text-center nav-item md:my-0">
               <Link
                 activeClassName="text-blue-500"
-                exact
                 to="/resources/"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -130,7 +126,6 @@ function Header() {
             <li className="my-2 text-center nav-item md:my-0">
               <Link
                 activeClassName="text-blue-500"
-                exact
                 to="/contact/"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >

@@ -2,13 +2,14 @@ import React from "react";
 import Layout from "../components/layout";
 import Hero from "../components/hero";
 import SEO from "../components/seo";
-import Banner from "../components/banner";
+import Newsletter from "../components/newsletter";
 import ServicesAlt from "../components/servicesalt";
 import Contact from "../components/contact";
 import Quote from "../components/quote";
 import Blog from "../components/blog";
 
 function IndexPage() {
+  
   return (
     <Layout>
       <SEO
@@ -16,7 +17,7 @@ function IndexPage() {
         title="Home"
       />
       <Hero />
-      <Banner />
+      <Newsletter />
       <ServicesAlt />
       <Quote />
       <Blog />

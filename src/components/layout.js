@@ -7,6 +7,7 @@ import linkedinFilled from "@iconify/icons-ant-design/linkedin-filled";
 import githubFilled from "@iconify/icons-ant-design/github-filled";
 
 function Layout({ children }) {
+
   return (
     <div>
       <div className="w-full">
@@ -35,56 +36,58 @@ function Layout({ children }) {
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap">
             <div className="w-full px-4 lg:w-6/12">
-            <svg
-              width="40"
-              height="42"
-              viewBox="0 0 40 42"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M20.0018 1.3125L14.3184 4.52691V11.0955L20.0018 7.83449L31.5 14L37 10.6L20.0018 1.3125Z"
-                fill="#093B9F"
-              />
-              <path
-                d="M20.0018 21.158L15 17.2L20.0018 14.5894L25 17.2L20.0018 21.158Z"
-                fill="#093B9F"
-              />
-              <path
-                d="M20.0018 1.3125L14.3184 4.52691V11.0955L20.0018 7.83449L31.5 14L37 10.6L20.0018 1.3125Z"
-                stroke="#093B9F"
-              />
-              <path
-                d="M20.0018 21.158L15 17.2L20.0018 14.5894L25 17.2L20.0018 21.158Z"
-                stroke="#093B9F"
-              />
-              <path
-                d="M8.35532 14.6145L2.35352 11.5884L2.67187 31.1738L19.5 40.5V38L19.9552 34.7609L19.5 34.5L8.35532 27.8197V14.6145Z"
-                fill="#5C8FF4"
-                stroke="#5C8FF4"
-              />
-              <path
-                d="M8.35562 7.97461L2.7998 11L8.35562 14.4966V7.97461Z"
-                fill="#093B9F"
-                stroke="#093B9F"
-              />
-              <path
-                d="M31.6023 14.4962L37.3789 11.375L37.2857 31.1739L20.5 40.5V34.5L31.6023 27.8197V14.4962Z"
-                fill="#1C64F2"
-                stroke="#1C64F2"
-              />
-              <path
-                d="M14.5 24.5V18L19.5 21V27.5L14.5 24.5Z"
-                fill="#5C8FF4"
-                stroke="#5C8FF4"
-              />
-              <path
-                d="M25.5 24.5V18L20.4997 20.9999V27.5L25.5 24.5Z"
-                fill="#1C64F2"
-                stroke="#1C64F2"
-              />
-            </svg>
-              <h4 className="pt-2 text-2xl font-medium text-gray-300">Barnett Technologies</h4>
+              <svg
+                width="40"
+                height="42"
+                viewBox="0 0 40 42"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.0018 1.3125L14.3184 4.52691V11.0955L20.0018 7.83449L31.5 14L37 10.6L20.0018 1.3125Z"
+                  fill="#093B9F"
+                />
+                <path
+                  d="M20.0018 21.158L15 17.2L20.0018 14.5894L25 17.2L20.0018 21.158Z"
+                  fill="#093B9F"
+                />
+                <path
+                  d="M20.0018 1.3125L14.3184 4.52691V11.0955L20.0018 7.83449L31.5 14L37 10.6L20.0018 1.3125Z"
+                  stroke="#093B9F"
+                />
+                <path
+                  d="M20.0018 21.158L15 17.2L20.0018 14.5894L25 17.2L20.0018 21.158Z"
+                  stroke="#093B9F"
+                />
+                <path
+                  d="M8.35532 14.6145L2.35352 11.5884L2.67187 31.1738L19.5 40.5V38L19.9552 34.7609L19.5 34.5L8.35532 27.8197V14.6145Z"
+                  fill="#5C8FF4"
+                  stroke="#5C8FF4"
+                />
+                <path
+                  d="M8.35562 7.97461L2.7998 11L8.35562 14.4966V7.97461Z"
+                  fill="#093B9F"
+                  stroke="#093B9F"
+                />
+                <path
+                  d="M31.6023 14.4962L37.3789 11.375L37.2857 31.1739L20.5 40.5V34.5L31.6023 27.8197V14.4962Z"
+                  fill="#1C64F2"
+                  stroke="#1C64F2"
+                />
+                <path
+                  d="M14.5 24.5V18L19.5 21V27.5L14.5 24.5Z"
+                  fill="#5C8FF4"
+                  stroke="#5C8FF4"
+                />
+                <path
+                  d="M25.5 24.5V18L20.4997 20.9999V27.5L25.5 24.5Z"
+                  fill="#1C64F2"
+                  stroke="#1C64F2"
+                />
+              </svg>
+              <h4 className="pt-2 text-2xl font-medium text-gray-300">
+                Barnett Technologies
+              </h4>
               <h5 className="mt-0 mb-2 text-base text-gray-700">
                 Simply the complex.
               </h5>
