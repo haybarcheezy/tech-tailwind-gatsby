@@ -69,6 +69,7 @@ export default class Newsletter extends Component {
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
+              <input type="hidden" name="form-name" value="newsletter" />
               <label className="block mb-2 text-sm font-bold leading-tight text-gray-700">
                 Name
               </label>

@@ -77,7 +77,7 @@ function ContactPage() {
             Please fill out the form below.
           </p>
           <form className="w-full max-w-lg mx-auto mt-4" name="contact-page" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="form-name" value="contact-page" />
           <div className="flex flex-wrap">
           <div className="w-full px-2 md:w-1/2">
           <label className="block mb-2 text-sm font-bold text-gray-700">
