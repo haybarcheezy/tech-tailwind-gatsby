@@ -18,9 +18,6 @@ const Faqs = () => {
                 Frequently asked <span className="font-medium">Questions</span>
               </div>
               <div className="my-2">Wondering how our service works ?</div>
-              <div className="text-xs text-gray-600">
-                Dive into our FAQ for more details
-              </div>
             </div>
             <div className="md:w-2/3">
               <Accordion allowZeroExpanded={true} className="px-4 py-1">

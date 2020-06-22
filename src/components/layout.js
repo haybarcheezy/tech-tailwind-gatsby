@@ -122,12 +122,12 @@ function Layout({ children }) {
               </div>
               <p className="mt-6 text-sm font-semibold text-gray-600">
                 Currently v1.0.0. Code
-                <a href="#blank" className="text-gray-700">
+                <a href="#blank" className="text-gray-700 hover:text-white">
                   {" "}
                   licensed MIT
                 </a>
                 , docs
-                <a href="#blank" className="text-gray-700">
+                <a href="#blank" className="text-gray-700 hover:text-white">
                   {" "}
                   CC by 4.0
                 </a>
@@ -144,7 +144,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
+                        className="block pb-2 text-sm text-gray-700 hover:text-blue-500 font-regular"
                       >
                         Home
                       </a>
@@ -152,7 +152,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
+                        className="block pb-2 text-sm text-gray-700 hover:text-blue-500 font-regular"
                       >
                         About
                       </a>
@@ -160,7 +160,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
+                        className="block pb-2 text-sm text-gray-700 hover:text-blue-500 font-regular"
                       >
                         Services
                       </a>
@@ -168,7 +168,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
+                        className="block pb-2 text-sm text-gray-700 hover:text-blue-500 font-regular"
                       >
                         Resources
                       </a>
@@ -176,7 +176,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
+                        className="block pb-2 text-sm text-gray-700 hover:text-blue-500 font-regular"
                       >
                         Contact
                       </a>
@@ -191,7 +191,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
+                        className="block pb-2 text-sm text-gray-700 hover:text-blue-500 font-regular"
                       >
                         MIT License
                       </a>
@@ -199,7 +199,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
+                        className="block pb-2 text-sm text-gray-700 hover:text-blue-500 font-regular"
                       >
                         Privacy Policy
                       </a>
@@ -207,7 +207,7 @@ function Layout({ children }) {
                     <li>
                       <a
                         href="#blank"
-                        className="block pb-2 text-sm text-gray-700 hover:text-gray-900 font-regular"
+                        className="block pb-2 text-sm text-gray-700 hover:text-blue-500 font-regular"
                       >
                         Terms & Conditions
                       </a>
@@ -224,7 +224,7 @@ function Layout({ children }) {
                 Copyright ©
                 <a
                   href="https://github.com"
-                  className="text-gray-600 hover:text-gray-900"
+                  className="text-gray-600 hover:text-blue-500"
                 >
                   {" "}
                   Haybarcheezy

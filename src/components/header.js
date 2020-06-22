@@ -141,22 +141,22 @@ function Header() {
               ></input>
             </li>
             <li className="invisible px-2 my-2 md:border-l md:border-gray-200 nav-item md:visible">
-              <Link to="https://twitter.com/">
+              <a to="https://twitter.com/">
                 <Icon
                   icon={twitterOutlined}
                   style={{ fontSize: "24px" }}
                   className="text-gray-900 transition duration-500 ease-in-out transform cursor-pointer hover:text-blue-400 hover:scale-105"
                 />
-              </Link>
+              </a>
             </li>
             <li className="invisible my-2 nav-item md:visible">
-              <Link to="https://linkedin.com//">
+              <a to="https://linkedin.com//">
                 <Icon
                   icon={linkedinFilled}
                   style={{ fontSize: "24px" }}
                   className="text-gray-900 transition duration-500 ease-in-out transform cursor-pointer hover:text-blue-400 hover:scale-105"
                 />
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>

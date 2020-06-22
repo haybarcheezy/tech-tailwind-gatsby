@@ -99,7 +99,7 @@ function Contact() {
               they can respond to my inquiry.
             </p>
           </div>
-          <button type="submit" className="px-6 py-2 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600">
+          <button type="submit" className="w-full px-6 py-2 mt-4 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600">
             Submit
           </button>
           </form>

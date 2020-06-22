@@ -47,12 +47,19 @@ export default class Newsletter extends Component {
         <Modal
           visible={this.state.visible}
           width="400"
-          height="400"
+          height="410"
           effect="fadeInUp"
           onClickAway={() => this.closeModal()}
         >
-          <div className="p-4 text-left">
-            <h1 className="py-2 text-lg text-2xl font-bold text-center">
+                        <button
+                className="flex float-right px-4 py-2 text-sm text-gray-500 bg-gray-200 rounded-tr rounded-bl hover:bg-red-400 hover:text-red-700"
+                href="javascript:void(0);"
+                onClick={() => this.closeModal()}
+              >
+                Close
+              </button>
+          <div className="w-full h-full p-4 pt-8 text-left">
+            <h1 className="pt-2 pb-6 text-lg text-2xl font-bold text-center">
               Newsletter Sign-Up
             </h1>
             <form
@@ -62,37 +69,31 @@ export default class Newsletter extends Component {
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
-              <label className="block mb-2 text-sm font-bold text-gray-700">
+              <label className="block mb-2 text-sm font-bold leading-tight text-gray-700">
                 Name
               </label>
-              <input className="w-full px-4 py-2 mb-4 form-input" type="name" />
-              <label className="block mb-2 text-sm font-bold text-gray-700">
+              <input className="w-full px-4 py-2 mb-4 leading-tight form-input" type="name" />
+              <label className="block mb-2 text-sm font-bold leading-tight text-gray-700">
                 Email
               </label>
               <input
-                className="w-full px-4 py-2 mb-4 form-input"
+                className="w-full px-4 py-2 mb-4 leading-tight form-input"
                 type="email"
               />
-              <label className="block mb-2 text-sm font-bold text-gray-700">
+              <label className="block mb-2 text-sm font-bold leading-tight text-gray-700">
                 Company
               </label>
               <input
-                className="w-full px-4 py-2 mb-4 form-input"
+                className="w-full px-4 py-2 mb-4 leading-tight form-input"
                 type="company"
               />
               <button
                 type="submit"
-                className="px-4 py-2 text-white bg-blue-400 rounded-lg"
+                className="w-full px-6 py-2 mt-4 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600"
               >
-                Submit
+                Subscribe
               </button>
-              <button
-                className="flex float-right px-4 py-2 text-white bg-red-500 rounded-lg"
-                href="javascript:void(0);"
-                onClick={() => this.closeModal()}
-              >
-                Close
-              </button>
+
               </form>
             </div>
         </Modal>
