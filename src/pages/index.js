@@ -7,6 +7,7 @@ import ServicesAlt from "../components/servicesalt";
 import Contact from "../components/contact";
 import Quote from "../components/quote";
 import Blog from "../components/blog";
+import LogoCloud from "../components/logocloud"
 
 function IndexPage() {
   
@@ -18,6 +19,7 @@ function IndexPage() {
       />
       <Hero />
       <Newsletter />
+      <LogoCloud />
       <ServicesAlt />
       <Quote />
       <Blog />

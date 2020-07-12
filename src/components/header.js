@@ -67,7 +67,7 @@ function Header() {
           </Link>
 
           <button
-            className="flex items-center block px-3 py-2 text-gray-700 border border-gray-700 rounded md:hidden focus:outline-none"
+            className="flex items-center px-3 py-2 text-gray-700 border border-gray-700 rounded md:hidden focus:outline-none"
             onClick={() => toggleExpansion(!isExpanded)}
           >
             <svg
@@ -91,7 +91,7 @@ function Header() {
               <Link
                 to="/"
                 activeStyle={{ color: "#1c64f2"}}
-                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
+                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline transition duration-150 ease-in-out rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Home
               </Link>
@@ -100,7 +100,7 @@ function Header() {
               <Link
                 activeStyle={{ color: "#1c64f2"}}
                 to="/about/"
-                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
+                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline transition duration-150 ease-in-out rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 About
               </Link>
@@ -109,7 +109,7 @@ function Header() {
               <Link
                 activeStyle={{ color: "#1c64f2"}}
                 to="/services/"
-                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
+                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline transition duration-150 ease-in-out rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Services
               </Link>
@@ -118,7 +118,7 @@ function Header() {
               <Link
                 activeStyle={{ color: "#1c64f2"}}
                 to="/resources/"
-                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
+                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline transition duration-150 ease-in-out rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Resources
               </Link>
@@ -127,7 +127,7 @@ function Header() {
               <Link
                 activeStyle={{ color: "#1c64f2"}}
                 to="/contact/"
-                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
+                className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline transition duration-150 ease-in-out rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Contact
               </Link>
