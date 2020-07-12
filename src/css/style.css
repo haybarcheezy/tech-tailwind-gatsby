@@ -16,6 +16,12 @@
   transition: all 0.3s;
 }
 
+.color:hover > .accordion__button:before {
+  border-bottom: 2px solid #4D85F5!important;
+  border-right: 2px solid #4D85F5!important;
+
+}
+
 .accordion__button[aria-expanded="true"]::before,
 .accordion__button[aria-selected="true"]::before {
   transform: rotate(45deg);

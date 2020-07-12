@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="flex bg-white" style={{ height: "700px" }}>
       <div className="flex items-center px-8 text-center lg:text-left md:px-12 lg:w-1/2">
         <div>
-          <h1 className="text-6xl font-black leading-tight text-left lg:text-6xl">
+          <h1 className="text-6xl font-black leading-none text-left md:leading-tight lg:text-6xl">
             Simplify the Complex.
           </h1>
           <div className="w-20 h-2 my-4 bg-blue-500"></div>

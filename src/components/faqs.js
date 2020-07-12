@@ -22,7 +22,7 @@ const Faqs = () => {
             <div className="md:w-2/3">
               <Accordion allowZeroExpanded={true} className="px-4 py-1">
                 <AccordionItem className="mb-2 outline-none">
-                  <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg text-white transition duration-150 ease-in-out bg-gray-900 border border-gray-700 rounded-md shadow-md outline-none cursor-pointer font-base hover:bg-gray-800">
+                  <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg text-white transition duration-150 ease-in-out bg-gray-900 border border-gray-700 rounded-md shadow-md outline-none cursor-pointer font-base hover:bg-gray-800 hover:border-blue-400 color">
                     <AccordionItemButton className="flex-auto outline-none select-none accordion__button">
                       <p className="py-3 pl-0 md:pl-4">
                         How to install it with windows server ?
@@ -38,7 +38,7 @@ const Faqs = () => {
                   </AccordionItemPanel>
                 </AccordionItem>
                 <AccordionItem className="mb-2 outline-none">
-                <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg text-white transition duration-150 ease-in-out bg-gray-900 border border-gray-700 rounded-md shadow-md outline-none cursor-pointer font-base hover:bg-gray-800">
+                <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg text-white transition duration-150 ease-in-out bg-gray-900 border border-gray-700 rounded-md shadow-md outline-none cursor-pointer font-base hover:bg-gray-800 hover:border-blue-400 color">
                     <AccordionItemButton className="flex-auto outline-none select-none accordion__button">
                       <p className="py-3 pl-0 md:pl-4">
                         How to install it with windows server ?
@@ -54,7 +54,7 @@ const Faqs = () => {
                   </AccordionItemPanel>
                 </AccordionItem>
                 <AccordionItem className="mb-2 outline-none">
-                <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg text-white transition duration-150 ease-in-out bg-gray-900 border border-gray-700 rounded-md shadow-md outline-none cursor-pointer font-base hover:bg-gray-800">
+                <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg text-white transition duration-150 ease-in-out bg-gray-900 border border-gray-700 rounded-md shadow-md outline-none cursor-pointer font-base hover:bg-gray-800 hover:border-blue-400 color">
                     <AccordionItemButton className="flex-auto outline-none select-none accordion__button">
                       <p className="py-3 pl-0 md:pl-4">
                         How to install it with windows server ?
@@ -70,7 +70,7 @@ const Faqs = () => {
                   </AccordionItemPanel>
                 </AccordionItem>
                 <AccordionItem className="mb-2 outline-none">
-                <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg text-white transition duration-150 ease-in-out bg-gray-900 border border-gray-700 rounded-md shadow-md outline-none cursor-pointer font-base hover:bg-gray-800">
+                <AccordionItemHeading className="flex flex-row-reverse px-2 mt-2 text-lg text-white transition duration-150 ease-in-out bg-gray-900 border border-gray-700 rounded-md shadow-md outline-none cursor-pointer font-base hover:bg-gray-800 hover:border-blue-400 color">
                     <AccordionItemButton className="flex-auto outline-none select-none accordion__button">
                       <p className="py-3 pl-0 md:pl-4">
                         How to install it with windows server ?
