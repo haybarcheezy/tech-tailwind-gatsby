@@ -10,7 +10,6 @@ import Blog from "../components/blog";
 import LogoCloud from "../components/logocloud"
 
 function IndexPage() {
-  
   return (
     <Layout>
       <SEO

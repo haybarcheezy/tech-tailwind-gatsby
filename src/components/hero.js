@@ -22,7 +22,7 @@ const Hero = () => {
               to="/services"
               className="px-4 py-3 font-semibold text-gray-200 bg-gray-900 rounded text-s hover:bg-gray-800"
             >
-              Get Started
+              Our Services
             </Link>
             <Link to="/about"
               className="px-4 py-3 mx-4 font-semibold text-gray-900 bg-gray-300 rounded text-s hover:bg-gray-400"

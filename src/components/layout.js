@@ -11,7 +11,7 @@ function Layout({ children }) {
   return (
     <div>
       <div className="w-full">
-        <Header />
+        <Header/>
       </div>
 
       <main>{children}</main>
