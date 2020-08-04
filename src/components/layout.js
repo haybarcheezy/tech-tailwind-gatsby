@@ -7,11 +7,10 @@ import linkedinFilled from "@iconify/icons-ant-design/linkedin-filled";
 import githubFilled from "@iconify/icons-ant-design/github-filled";
 
 function Layout({ children }) {
-
   return (
     <div>
       <div className="w-full">
-        <Header/>
+        <Header />
       </div>
 
       <main>{children}</main>
@@ -86,7 +85,7 @@ function Layout({ children }) {
                 />
               </svg>
               <h4 className="pt-2 text-2xl font-medium text-gray-300">
-                Barnett Technologies
+                Westchase Group, LLC
               </h4>
               <h5 className="mt-0 mb-2 text-base text-gray-700">
                 Simply the complex.
@@ -102,7 +101,7 @@ function Layout({ children }) {
                   />
                 </a>
                 <a
-                  href="https://linkedin.com/"
+                  href="https://linkedin.com/company/westchase-group-llc"
                   className="items-center justify-center inline-block p-2 mr-2 text-center bg-gray-400 rounded-full shadow-lg outline-none hover:bg-white align-center focus:outline-none"
                 >
                   <Icon

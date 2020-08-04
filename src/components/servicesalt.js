@@ -14,7 +14,7 @@ const ServicesAlt = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col flex-wrap w-full mb-20 text-center">
           <h1 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 sm:leading-10">
-            Innovative Solutions
+            Innovative Services
           </h1>
           <p className="mt-2 text-base">
             This will be a subtitle call to action of services.{" "}
@@ -32,7 +32,7 @@ const ServicesAlt = () => {
                   />
                 </div>
                 <h2 className="mb-2 text-xl font-bold text-gray-900 ">
-                  Cloud Sevices
+                  Business Advisory Services
                 </h2>
                 <p className="text-sm leading-narrow">
                   Modernize, optimize, and manage enterprise applications.
@@ -51,7 +51,7 @@ const ServicesAlt = () => {
                   />
                 </div>
                 <h2 className="mb-2 text-xl font-bold text-gray-900 ">
-                  Application Management
+                  NextGen ERP Advisory Services
                 </h2>
                 <p className="text-sm leading-narrow">
                   Simplify managing and large cloud-based applications with effecient delivery.
@@ -70,7 +70,7 @@ const ServicesAlt = () => {
                   />
                 </div>
                 <h2 className="mb-2 text-xl font-bold text-gray-900 text-md ">
-                  Technology Consulting
+                  Technology Incubation
                 </h2>
                 <p className="text-sm leading-narrow">
                   Leverage innovative technology and deliver a premium end user
@@ -128,10 +128,10 @@ const ServicesAlt = () => {
                   />
                 </div>
                 <h2 className="mb-2 text-xl font-bold text-gray-900 ">
-                  Development Services
+                  Executives On-Demand
                 </h2>
                 <p className="text-sm leading-narrow">
-                  Web development using the latest frameworks.
+                  C-Suite when you need it.
                 </p>
               </div>
             </Link>

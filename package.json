@@ -32,6 +32,7 @@
     "tailwind",
     "tailwindcss",
     "purgecss",
+    "Westchase IT, LLC",
     "IT Consulting"
   ],
   "license": "MIT",
@@ -63,7 +64,7 @@
     "eslint-plugin-react": "7.20.0",
     "gatsby-plugin-eslint": "2.0.8",
     "prettier": "2.0.5",
-    "tailwindcss": "1.4.6"
+    "tailwindcss": "^1.6"
   },
   "repository": {
     "type": "git",
