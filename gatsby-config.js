@@ -5,7 +5,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Westchase Associates`,
+    title: `Westchase IT, LLC`,
     siteUrl: `https://www.barnett.tech`,
     description: `IT Consulting`,
     author: `Hayden Barnett`,
@@ -48,6 +48,17 @@ module.exports = {
         generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
       },
     },
-    
+    {
+      resolve: "gatsby-plugin-netlify-cache",
+      options: {
+        cachePublic: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/about`, `/services`, `/resources`, `/contact`]
+      }
+    }
   ],
 };
