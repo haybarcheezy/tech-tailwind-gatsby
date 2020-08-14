@@ -47,11 +47,6 @@ module.exports = {
         generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
       },
     },
-    {
-      resolve: "gatsby-plugin-netlify-cache",
-      options: {
-        cachePublic: false,
-      },
-    }
+    
   ],
 };
