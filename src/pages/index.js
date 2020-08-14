@@ -17,11 +17,11 @@ function IndexPage() {
         title="Home"
       />
       <Hero />
-      <Newsletter />
       <LogoCloud />
       <ServicesAlt />
       <Quote />
       <Blog />
+      <Newsletter />
       <Contact />
     </Layout>
   );

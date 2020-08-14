@@ -5,7 +5,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Barnett Technology`,
+    title: `Westchase IT, LLC`,
     description: `IT Consulting`,
     author: `Hayden Barnett`,
   },
@@ -52,12 +52,6 @@ module.exports = {
       options: {
         cachePublic: false,
       },
-    },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        precachePages: [`/about`, `/services`, `/resources`, `/contact`]
-      }
     }
   ],
 };
