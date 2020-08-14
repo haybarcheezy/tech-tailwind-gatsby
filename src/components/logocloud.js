@@ -98,13 +98,13 @@ const LogoCloud = () => {
             <h2 className="text-4xl font-extrabold leading-9 tracking-tight text-white sm:leading-10">
               Industry professionals,
               <br />
-              <span className="text-blue-500">made available on-demand.</span>
+              <span className="text-blue-500">made available On-Demand.</span>
             </h2>
           </div>
           <div>
             <p className="mt-3 mb-4 text-base leading-6 text-gray-300">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              From C-Suite to shop floor, we have your expertise on-demand; When
+              you need it, where you need it.
             </p>
           </div>
           <div className="flex py-2">

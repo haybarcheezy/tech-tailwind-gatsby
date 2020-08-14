@@ -12,10 +12,10 @@ const Hero = () => {
           </h1>
           <div className="w-20 h-2 my-4 bg-blue-500"></div>
           <p className="mt-6 text-sm text-left text-gray-500 md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-            commodi cum cupiditate ducimus, fugit harum id necessitatibus odio
-            quam quasi, quibusdam rem tempora voluptates. Cumque debitis
-            dignissimos id quam vel!
+            When others use technology to transform their business, 80% normally
+            fail. We focus on transforming the business first, then apply
+            technology to supercharge your differentiation! Simplifying the
+            Complex.
           </p>
           <div className="flex justify-start mt-6">
             <Link
@@ -24,7 +24,8 @@ const Hero = () => {
             >
               Our Services
             </Link>
-            <Link to="/about"
+            <Link
+              to="/about"
               className="px-4 py-3 mx-4 font-semibold text-gray-900 bg-gray-300 rounded text-s hover:bg-gray-400"
             >
               Learn More

@@ -85,10 +85,10 @@ function Layout({ children }) {
                 />
               </svg>
               <h4 className="pt-2 text-2xl font-medium text-gray-300">
-                Westchase Group, LLC
+                Westchase Associates, LP
               </h4>
               <h5 className="mt-0 mb-2 text-base text-gray-700">
-                Simply the complex.
+                Simply the Complex.
               </h5>
               <div className="mt-6">
                 <a

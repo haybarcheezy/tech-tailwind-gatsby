@@ -5,7 +5,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Westchase IT, LLC`,
+    title: `Westchase Associates, LP`,
     siteUrl: `https://www.barnett.tech`,
     description: `IT Consulting`,
     author: `Hayden Barnett`,
@@ -17,7 +17,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        short_name: `westchase`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.blue["500"],

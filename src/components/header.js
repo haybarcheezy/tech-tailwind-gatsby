@@ -90,7 +90,7 @@ function Header() {
             <li className="my-2 text-center nav-item md:my-0">
               <Link
                 to="/"
-                activeStyle={{ color: "#1c64f2"}}
+                activeStyle={{ color: "#1c64f2" }}
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline transition duration-150 ease-in-out rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
                 Home
@@ -98,7 +98,7 @@ function Header() {
             </li>
             <li className="my-2 text-center nav-item md:my-0">
               <Link
-                activeStyle={{ color: "#1c64f2"}}
+                activeStyle={{ color: "#1c64f2" }}
                 to="/about/"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline transition duration-150 ease-in-out rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -107,7 +107,7 @@ function Header() {
             </li>
             <li className="my-2 text-center nav-item md:my-0">
               <Link
-                activeStyle={{ color: "#1c64f2"}}
+                activeStyle={{ color: "#1c64f2" }}
                 to="/services/"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline transition duration-150 ease-in-out rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -116,7 +116,7 @@ function Header() {
             </li>
             <li className="my-2 text-center nav-item md:my-0">
               <Link
-                activeStyle={{ color: "#1c64f2"}}
+                activeStyle={{ color: "#1c64f2" }}
                 to="/resources/"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline transition duration-150 ease-in-out rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -125,7 +125,7 @@ function Header() {
             </li>
             <li className="my-2 text-center nav-item md:my-0">
               <Link
-                activeStyle={{ color: "#1c64f2"}}
+                activeStyle={{ color: "#1c64f2" }}
                 to="/contact/"
                 className="inline-block px-2 py-2 text-xl font-medium text-gray-200 no-underline transition duration-150 ease-in-out rounded hover:bg-gray-200 md:text-base md:text-gray-900 hover:text-blue-500 md:mx-2"
               >
@@ -150,7 +150,7 @@ function Header() {
               </a>
             </li>
             <li className="invisible my-2 nav-item md:visible">
-              <a to="https://linkedin.com//">
+              <a href="https://www.linkedin.com/company/westchase-group-llc" link="_blank">
                 <Icon
                   icon={linkedinFilled}
                   style={{ fontSize: "24px" }}

@@ -14,9 +14,9 @@ const Faqs = () => {
         <div className="p-2">
           <div className="flex flex-col md:flex-row">
             <div className="p-4 text-sm md:w-1/3">
-            <div className="text-base font-semibold leading-6 tracking-wider text-blue-400 uppercase">How our service works</div>
+            <div className="text-base font-semibold leading-6 tracking-wider text-blue-400 uppercase">Frequently Asked Questions</div>
               <div className="mt-2 text-4xl font-semibold leading-10 text-white font-display">
-                Frequently asked <span className="font-base">Questions</span>
+                What seperates us <span className="font-base">from the rest?</span>
               </div>
             </div>
             <div className="md:w-2/3">

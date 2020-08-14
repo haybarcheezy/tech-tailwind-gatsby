@@ -35,7 +35,7 @@ const Quote = () => {
           <h2 className="text-xl font-bold text-gray-200">
             JON BARNETT
           </h2>
-          <p className="text-blue-400">Position Title</p>
+          <p className="text-blue-400">President | Managing Partner</p>
         </div>
         <div className="w-1/2 mx-auto text-center">
           
