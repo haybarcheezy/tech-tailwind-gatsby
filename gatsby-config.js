@@ -5,7 +5,8 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Westchase IT, LLC`,
+    title: `Westchase Associates`,
+    siteUrl: `https://www.barnett.tech`,
     description: `IT Consulting`,
     author: `Hayden Barnett`,
   },
