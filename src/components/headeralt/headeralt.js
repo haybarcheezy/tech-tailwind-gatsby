@@ -345,7 +345,7 @@ function HeaderAlt() {
               <div>
                 <nav className="grid row-gap-8">
                   <Link
-                    to="/business-adivsory-services"
+                    to="/business-advisory-services"
                     className="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-300"
                   >
                     <svg
