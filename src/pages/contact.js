@@ -27,7 +27,7 @@ function ContactPage() {
                   <Icon
                     icon={mailTwotone}
                     style={{ fontSize: "100px" }}
-                    className="p-2 text-blue-500"
+                    className="p-2 text-blue-400"
                   />
                 </div>
                 <h2 className="mb-2 text-lg font-bold text-gray-900 title-font">
@@ -42,7 +42,7 @@ function ContactPage() {
                   <Icon
                     icon={phoneTwotone}
                     style={{ fontSize: "100px" }}
-                    className="p-2 text-blue-500"
+                    className="p-2 text-blue-400"
                   />
                 </div>
                 <h2 className="mb-2 text-lg font-bold text-gray-900 title-font">
@@ -57,7 +57,7 @@ function ContactPage() {
                   <Icon
                     icon={calendarTwotone}
                     style={{ fontSize: "100px" }}
-                    className="p-2 text-blue-500"
+                    className="p-2 text-blue-400"
                   />
                 </div>
                 <h2 className="mb-2 text-lg font-bold text-gray-900 title-font">
@@ -154,7 +154,7 @@ function ContactPage() {
               they can respond to my inquiry.
             </p>
           </div>
-          <button type="submit" className="w-full py-2 mt-4 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600">
+          <button type="submit" className="w-full py-2 mt-4 text-lg text-white bg-blue-400 border-0 rounded focus:outline-none hover:bg-blue-600">
             Submit
           </button>
           </form>

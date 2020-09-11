@@ -98,7 +98,7 @@ const LogoCloud = () => {
             <h2 className="text-4xl font-extrabold leading-9 tracking-tight text-white sm:leading-10">
               Industry professionals,
               <br />
-              <span className="text-blue-500">made available On-Demand.</span>
+              <span className="text-blue-400">made available On-Demand.</span>
             </h2>
           </div>
           <div>
@@ -110,7 +110,7 @@ const LogoCloud = () => {
           <div className="flex py-2">
             <Link
               to="/about/"
-              className="px-2 py-2 text-blue-500 uppercase rounded text-md hover:bg-gray-800"
+              className="px-2 py-2 text-blue-400 uppercase rounded text-md hover:bg-gray-800"
             >
               Read More →
             </Link>

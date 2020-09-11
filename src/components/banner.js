@@ -9,7 +9,7 @@ const Banner = () => {
         className="flex items-center p-2 mx-4 leading-none text-white transition duration-500 ease-in-out transform bg-blue-800 rounded-full shadow-md cursor-pointer hover:shadow-lg hover:scale-105 md:mx-0 lg:inline-flex"
         role="alert"
       >
-        <span className="flex px-2 py-1 mr-3 text-xs font-bold uppercase bg-blue-500 rounded-full">
+        <span className="flex px-2 py-1 mr-3 text-xs font-bold uppercase bg-blue-400 rounded-full">
           New
         </span>
         <span className="flex-auto mr-2 font-semibold text-center">

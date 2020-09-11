@@ -31,7 +31,7 @@ const Quote = () => {
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur.
           </p>
-          <span className="inline-block w-10 h-1 mt-8 mb-6 bg-blue-500"></span>
+          <span className="inline-block w-10 h-1 mt-8 mb-6 bg-blue-400"></span>
           <h2 className="text-xl font-bold text-gray-200">
             JON BARNETT
           </h2>

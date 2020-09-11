@@ -29,7 +29,7 @@ export default class Newsletter extends Component {
             className="flex items-center p-2 mx-4 leading-none text-white transition duration-500 ease-in-out transform bg-blue-800 rounded-full shadow-md cursor-pointer hover:shadow-lg hover:scale-105 md:mx-0 lg:inline-flex"
             role="alert"
           >
-            <span className="flex px-2 py-1 mr-3 text-xs font-bold uppercase bg-blue-500 rounded-full">
+            <span className="flex px-2 py-1 mr-3 text-xs font-bold uppercase bg-blue-400 rounded-full">
               New
             </span>
             <span className="flex-auto mr-2 font-semibold text-center">
@@ -59,7 +59,7 @@ export default class Newsletter extends Component {
                 Close
               </button>
           <div className="w-full h-full p-4 pt-8 text-left">
-            <h1 className="pt-2 pb-6 text-lg text-2xl font-bold text-center">
+            <h1 className="pt-2 pb-6 text-2xl font-bold text-center">
               Newsletter Sign-Up
             </h1>
             <form
@@ -90,7 +90,7 @@ export default class Newsletter extends Component {
               />
               <button
                 type="submit"
-                className="w-full px-6 py-2 mt-4 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-blue-600"
+                className="w-full px-6 py-2 mt-4 text-lg text-white bg-blue-400 border-0 rounded focus:outline-none hover:bg-blue-600"
               >
                 Subscribe
               </button>

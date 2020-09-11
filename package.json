@@ -4,8 +4,10 @@
   "version": "4.0.0",
   "author": "Hayden Barnett <hayden@haydenbarnett.dev>",
   "dependencies": {
+    "@afc-org/react-tailwind": "^0.1.1",
     "a17t": "^0.1.4",
     "acorn": "^6.4.1",
+    "alpinejs": "^2.7.0",
     "classnames": "^2.2.6",
     "gatsby": "2.24.47",
     "gatsby-plugin-manifest": "2.4.23",
@@ -15,6 +17,7 @@
     "gatsby-plugin-postcss": "2.3.11",
     "gatsby-plugin-react-helmet": "3.3.10",
     "gatsby-plugin-sharp": "2.6.27",
+    "gatsby-source-filesystem": "^2.3.29",
     "ink": "^2.7.1",
     "prop-types": "15.7.2",
     "react": "^16.13.1",
@@ -24,6 +27,7 @@
     "react-helmet": "6.0.0",
     "react-is": "^16.13.1",
     "react-refresh": "^0.8.3",
+    "react-transition-group": "^4.4.1",
     "styled-components": "^5.1.1",
     "yup": "^0.27.0"
   },

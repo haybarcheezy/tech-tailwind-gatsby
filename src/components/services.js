@@ -28,7 +28,7 @@ const Services = () => {
                 <Icon
                   icon={cloudDownloadOutlined}
                   style={{ fontSize: "100px" }}
-                  className="p-2 text-blue-500 bg-white"
+                  className="p-2 text-blue-400 bg-white"
                 />
               </div>
               <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
@@ -56,7 +56,7 @@ const Services = () => {
                 <Icon
                   icon={deploymentUnitOutlined}
                   style={{ fontSize: "100px" }}
-                  className="p-2 text-blue-500"
+                  className="p-2 text-blue-400"
                 />
               </div>
               <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
@@ -84,7 +84,7 @@ const Services = () => {
                 <Icon
                   icon={hddOutlined}
                   style={{ fontSize: "100px" }}
-                  className="p-2 text-blue-500"
+                  className="p-2 text-blue-400"
                 />
               </div>
               <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
@@ -112,7 +112,7 @@ const Services = () => {
                 <Icon
                   icon={securityScanOutlined}
                   style={{ fontSize: "100px" }}
-                  className="p-2 text-blue-500"
+                  className="p-2 text-blue-400"
                 />
               </div>
               <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
@@ -140,7 +140,7 @@ const Services = () => {
                 <Icon
                   icon={syncOutlined}
                   style={{ fontSize: "100px" }}
-                  className="p-2 text-blue-500"
+                  className="p-2 text-blue-400"
                 />
               </div>
               <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">
@@ -168,7 +168,7 @@ const Services = () => {
                 <Icon
                   icon={codeOutlined}
                   style={{ fontSize: "100px" }}
-                  className="p-2 text-blue-500"
+                  className="p-2 text-blue-400"
                 />
               </div>
               <h2 className="mb-2 text-lg font-medium text-gray-900 title-font">

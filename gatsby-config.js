@@ -38,6 +38,13 @@ module.exports = {
       },
     },
     {
+    resolve: "gatsby-source-filesystem",
+      options: {
+        name: "fonts",
+        path: `${__dirname}/src/fonts/`
+      }
+    },
+    {
       resolve: "gatsby-plugin-netlify",
       options: {
         headers: {}, // option to add more headers. `Link` headers are transformed by the below criteria

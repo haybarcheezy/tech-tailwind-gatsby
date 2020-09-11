@@ -234,6 +234,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        "Gilroy",
         "system-ui",
         "-apple-system",
         "BlinkMacSystemFont",

@@ -16,7 +16,7 @@ const ResourcesTitlebar = () => {
         <h1 className="text-5xl font-extrabold leading-9 text-gray-100 sm:leading-10">
           Resources
         </h1>
-        <div className="w-20 h-2 my-4 bg-blue-500" />
+        <div className="w-20 h-2 my-4 bg-blue-400" />
         <h3 className="text-left text-gray-200">
           This is small intro text.
         </h3>

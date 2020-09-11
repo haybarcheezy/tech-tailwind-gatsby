@@ -10,7 +10,7 @@ const Hero = () => {
           <h1 className="text-6xl font-black leading-none text-left md:leading-tight lg:text-6xl">
             Simplify the Complex.
           </h1>
-          <div className="w-20 h-2 my-4 bg-blue-500"></div>
+          <div className="w-20 h-2 my-4 bg-blue-400"></div>
           <p className="mt-6 text-sm text-left text-gray-500 md:text-base">
             When others use technology to transform their business, 80% normally
             fail. We focus on transforming the business first, then apply

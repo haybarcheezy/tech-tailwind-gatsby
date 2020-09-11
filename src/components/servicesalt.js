@@ -28,7 +28,7 @@ const ServicesAlt = () => {
                   <Icon
                     icon={cloudDownloadOutlined}
                     style={{ fontSize: "100px" }}
-                    className="p-2 text-blue-500"
+                    className="p-2 text-blue-400"
                   />
                 </div>
                 <h2 className="mb-2 text-xl font-bold text-gray-900 ">
@@ -47,7 +47,7 @@ const ServicesAlt = () => {
                   <Icon
                     icon={deploymentUnitOutlined}
                     style={{ fontSize: "100px" }}
-                    className="p-2 text-blue-500"
+                    className="p-2 text-blue-400"
                   />
                 </div>
                 <h2 className="mb-2 text-xl font-bold text-gray-900 ">
@@ -66,7 +66,7 @@ const ServicesAlt = () => {
                   <Icon
                     icon={hddTwotone}
                     style={{ fontSize: "100px" }}
-                    className="p-2 text-blue-500"
+                    className="p-2 text-blue-400"
                   />
                 </div>
                 <h2 className="mb-2 text-xl font-bold text-gray-900 text-md ">
@@ -86,7 +86,7 @@ const ServicesAlt = () => {
                   <Icon
                     icon={securityScanTwotone}
                     style={{ fontSize: "100px" }}
-                    className="p-2 text-blue-500"
+                    className="p-2 text-blue-400"
                   />
                 </div>
                 <h2 className="mb-2 text-xl font-bold text-gray-900 ">
@@ -105,7 +105,7 @@ const ServicesAlt = () => {
                   <Icon
                     icon={syncOutlined}
                     style={{ fontSize: "100px" }}
-                    className="p-2 text-blue-500"
+                    className="p-2 text-blue-400"
                   />
                 </div>
                 <h2 className="mb-2 text-xl font-bold text-gray-900 ">
@@ -124,7 +124,7 @@ const ServicesAlt = () => {
                   <Icon
                     icon={codeOutlined}
                     style={{ fontSize: "100px" }}
-                    className="p-2 text-blue-500"
+                    className="p-2 text-blue-400"
                   />
                 </div>
                 <h2 className="mb-2 text-xl font-bold text-gray-900 ">

@@ -16,7 +16,7 @@ const ContactTitlebar = () => {
         <h1 className="text-5xl font-extrabold leading-9 text-gray-100 sm:leading-10">
           Contact Us
         </h1>
-        <div className="w-20 h-2 my-4 bg-blue-500" />
+        <div className="w-20 h-2 my-4 bg-blue-400" />
         <h3 className="text-left text-gray-200">
         We&#39;re Here to Help. 
         </h3>
