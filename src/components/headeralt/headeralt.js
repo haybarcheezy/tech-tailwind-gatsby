@@ -144,33 +144,6 @@ function HeaderAlt() {
                           </p>
                         </div>
                       </Link>
-                      <a
-                        href="#"
-                        className="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-gray-300"
-                      >
-                        <svg
-                          className="flex-shrink-0 w-6 h-6 text-blue-400"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                          />
-                        </svg>
-                        <div className="space-y-1">
-                          <p className="text-base font-medium leading-6 text-gray-900">
-                            Engagement
-                          </p>
-                          <p className="text-sm leading-5 text-gray-500">
-                            Speak directly to your customers in a more
-                            meaningful way.
-                          </p>
-                        </div>
-                      </a>
                       <Link
                         to="#"
                         activeStyle={{ color: "#000000" }}
@@ -327,12 +300,14 @@ function HeaderAlt() {
           </nav>
           <div className="items-center justify-end hidden space-x-8 md:flex md:flex-1 lg:w-0">
             <span className="inline-flex">
-              <Link
-                to="/contact"
-                className="inline-flex items-center justify-center px-4 py-2 text-base"
+              <a
+                href="https://www.linkedin.com/company/westchase-group-llc"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center justify-center px-2 py-2 text-base"
               >
                 <svg
-                  className="text-gray-400 hover:text-gray-900"
+                  className="text-gray-700 hover:text-gray-900"
                   width="26"
                   height="26"
                   viewBox="0 0 26 26"
@@ -344,7 +319,17 @@ function HeaderAlt() {
                     d="M24.5 0.5H1.5C0.946875 0.5 0.5 0.946875 0.5 1.5V24.5C0.5 25.0531 0.946875 25.5 1.5 25.5H24.5C25.0531 25.5 25.5 25.0531 25.5 24.5V1.5C25.5 0.946875 25.0531 0.5 24.5 0.5ZM7.91562 21.8031H4.20625V9.87187H7.91562V21.8031ZM6.0625 8.24063C5.63727 8.24063 5.22159 8.11453 4.86802 7.87828C4.51446 7.64204 4.23889 7.30626 4.07616 6.91339C3.91343 6.52053 3.87085 6.08824 3.95381 5.67118C4.03677 5.25412 4.24154 4.87103 4.54222 4.57035C4.8429 4.26966 5.226 4.06489 5.64306 3.98194C6.06012 3.89898 6.49241 3.94156 6.88527 4.10428C7.27813 4.26701 7.61391 4.54258 7.85016 4.89615C8.0864 5.24971 8.2125 5.66539 8.2125 6.09062C8.20937 7.27812 7.24688 8.24063 6.0625 8.24063ZM21.8031 21.8031H18.0969V16C18.0969 14.6156 18.0719 12.8375 16.1688 12.8375C14.2406 12.8375 13.9438 14.3437 13.9438 15.9V21.8031H10.2406V9.87187H13.7969V11.5031H13.8469C14.3406 10.5656 15.55 9.575 17.3563 9.575C21.1125 9.575 21.8031 12.0469 21.8031 15.2594V21.8031V21.8031Z"
                   />
                 </svg>
-              </Link>
+              </a>
+              <a
+                href="mailto:jon.barnett@westchaseit.com"
+                className="inline-flex items-center justify-center px-2 py-2 text-base"
+              >
+                <svg className="text-gray-700 hover:text-gray-900" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fillRule="evenodd" clipRule="evenodd" d="M2.73456 3.125C2.00936 3.125 1.31386 3.41309 0.80107 3.92588C0.288275 4.43867 0.000189859 5.13417 0.000189859 5.85938L0.000189859 7.00938C-6.32864e-05 7.02344 -6.32864e-05 7.0375 0.000189859 7.05156L0.000189859 19.1406C0.000189859 20.65 1.22519 21.875 2.73456 21.875H22.2658C22.991 21.875 23.6865 21.5869 24.1993 21.0741C24.7121 20.5613 25.0002 19.8658 25.0002 19.1406V5.85938C25.0002 5.13417 24.7121 4.43867 24.1993 3.92588C23.6865 3.41309 22.991 3.125 22.2658 3.125H2.73456ZM22.6564 6.35938V5.85938C22.6564 5.75577 22.6153 5.65642 22.542 5.58316C22.4688 5.50991 22.3694 5.46875 22.2658 5.46875H2.73456C2.63096 5.46875 2.53161 5.50991 2.45835 5.58316C2.38509 5.65642 2.34394 5.75577 2.34394 5.85938V6.35938L12.5002 12.3125L22.6564 6.35938ZM2.34394 9.07812V19.1422C2.34394 19.3578 2.51894 19.5328 2.73456 19.5328H22.2658C22.3694 19.5328 22.4688 19.4917 22.542 19.4184C22.6153 19.3451 22.6564 19.2458 22.6564 19.1422V9.07656L13.0939 14.6828C12.9139 14.7886 12.709 14.8444 12.5002 14.8444C12.2914 14.8444 12.0864 14.7886 11.9064 14.6828L2.34394 9.07656V9.07812Z" fill="currentColor"/>
+</svg>
+
+              </a>
+              
             </span>
           </div>
         </div>
