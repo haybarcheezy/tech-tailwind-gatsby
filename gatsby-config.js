@@ -20,9 +20,9 @@ module.exports = {
         short_name: `westchase`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.white,
-        theme_color: fullConfig.theme.colors.blue["500"],
+        theme_color: fullConfig.theme.colors.blue["400"],
         display: `minimal-ui`,
-        icon: `src/images/barnetticon.png`,
+        icon: `src/images/favicon.png`,
       },
     },
     {
