@@ -2,38 +2,37 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import WorkersImg from "../images/engineers.jpg";
-import ServicesAlt from "../components/servicesalt"
+import ServicesAlt from "../components/servicesalt";
 import Placeholder from "../images/placeholder.jpg";
 
-
-function BusinessAdvisoryServices() {
+function TechnologyIncubation() {
   return (
     <Layout>
       <SEO
-        keywords={[`westchase associates`, `consulting`, `business advisory services`, `business consulting`]}
-        title="Business Advisory Services"
+        keywords={[`westchase associates`, `consulting`, `technology incubation`, `technology consulting`]}
+        title="Technology Incubation"
       />
       <section
-      className="text-gray-700 border-t border-gray-200 body-font"
-      style={{
-        backgroundImage: `url(${WorkersImg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center bottom",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      <div className="container px-5 py-24 mx-auto mt-6">
-        <h1 className="text-5xl font-extrabold leading-tight text-gray-100 md:leading-9">
-          Business Advisory Services
-        </h1>
-        <div className="w-20 h-2 my-4 bg-blue-400" />
-        <h3 className="text-left text-gray-200">
-          Small intro to about page text.
-        </h3>
-      </div>
-    </section>
+        className="text-gray-700 border-t border-gray-200 body-font"
+        style={{
+          backgroundImage: `url(${WorkersImg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center bottom",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className="container px-5 py-24 mx-auto mt-6">
+          <h1 className="text-5xl font-extrabold leading-tight text-gray-100 md:leading-9">
+            Technology Incubation
+          </h1>
+          <div className="w-20 h-2 my-4 bg-blue-400" />
+          <h3 className="text-left text-gray-200">
+          Leverage innovative technology and deliver a premium-end user experience.
+          </h3>
+        </div>
+      </section>
       <section className="text-gray-700 border-t border-gray-200 body-font">
-      <div className="container flex flex-wrap px-5 py-24 mx-auto">
+      <div className="container flex flex-wrap px-5 py-24 mx-auto border-t border-gray-300">
         <div className="w-full mb-10 overflow-hidden rounded-lg lg:w-1/2 lg:mb-0">
           <img
             alt="feature"
@@ -47,7 +46,7 @@ function BusinessAdvisoryServices() {
               This is a small intro
             </h4>
             <h2 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 sm:leading-10">
-              Business Advisory Services
+              Technology Incubation
             </h2>
           </div>
           <div>
@@ -73,12 +72,11 @@ function BusinessAdvisoryServices() {
             </p>
           </div>
         </div>
-        </div>
-     
-    </section>
+      </div>
+      </section>
       <ServicesAlt />
     </Layout>
   );
 }
 
-export default BusinessAdvisoryServices;
+export default TechnologyIncubation;

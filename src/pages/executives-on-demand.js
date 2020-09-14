@@ -2,52 +2,55 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import WorkersImg from "../images/engineers.jpg";
-import ServicesAlt from "../components/servicesalt"
+import ServicesAlt from "../components/servicesalt";
 import Placeholder from "../images/placeholder.jpg";
 
-
-function BusinessAdvisoryServices() {
+function ExecutivesOnDemand() {
   return (
     <Layout>
       <SEO
-        keywords={[`westchase associates`, `consulting`, `business advisory services`, `business consulting`]}
-        title="Business Advisory Services"
+        keywords={[
+          `westchase associates`,
+          `consulting`,
+          `executives consulting`,
+          `executives on demand`,
+          `c-suite on demand`,
+        ]}
+        title="Executives On-Demand"
       />
       <section
-      className="text-gray-700 border-t border-gray-200 body-font"
-      style={{
-        backgroundImage: `url(${WorkersImg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center bottom",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      <div className="container px-5 py-24 mx-auto mt-6">
-        <h1 className="text-5xl font-extrabold leading-tight text-gray-100 md:leading-9">
-          Business Advisory Services
-        </h1>
-        <div className="w-20 h-2 my-4 bg-blue-400" />
-        <h3 className="text-left text-gray-200">
-          Small intro to about page text.
-        </h3>
-      </div>
-    </section>
+        className="text-gray-700 border-t border-gray-200 body-font"
+        style={{
+          backgroundImage: `url(${WorkersImg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center bottom",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className="container px-5 py-24 mx-auto mt-6">
+          <h1 className="text-5xl font-extrabold leading-tight text-gray-100 md:leading-9">
+            Executives On-Demand
+          </h1>
+          <div className="w-20 h-2 my-4 bg-blue-400" />
+          <h3 className="text-left text-gray-200">C-Suite when you need it.</h3>
+        </div>
+      </section>
       <section className="text-gray-700 border-t border-gray-200 body-font">
-      <div className="container flex flex-wrap px-5 py-24 mx-auto">
-        <div className="w-full mb-10 overflow-hidden rounded-lg lg:w-1/2 lg:mb-0">
+      <div className="container flex flex-wrap px-5 py-24 mx-auto border-t border-gray-300">
+        <div className="order-first w-full mb-10 overflow-hidden rounded-lg sm:order-last md:order-last lg:w-1/2 lg:mb-0">
           <img
             alt="feature"
             className="object-cover object-center w-full h-full"
             src={Placeholder}
           />
         </div>
-        <div className="flex flex-col flex-wrap -mb-10 lg:py-6 lg:w-1/2 lg:pl-12">
+        <div className="flex flex-col flex-wrap -mb-10 lg:py-6 lg:w-1/2 lg:pr-12 ">
           <div className="flex flex-col flex-wrap w-full mb-2 text-left">
             <h4 className="font-bold leading-9 text-blue-400 md: text-md sm:leading-10">
               This is a small intro
             </h4>
             <h2 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 sm:leading-10">
-              Business Advisory Services
+              Executives On-Demand
             </h2>
           </div>
           <div>
@@ -73,12 +76,11 @@ function BusinessAdvisoryServices() {
             </p>
           </div>
         </div>
-        </div>
-     
-    </section>
+      </div>
+      </section>
       <ServicesAlt />
     </Layout>
   );
 }
 
-export default BusinessAdvisoryServices;
+export default ExecutivesOnDemand;

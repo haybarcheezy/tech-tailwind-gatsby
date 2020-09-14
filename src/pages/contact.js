@@ -109,7 +109,7 @@ function ContactPage() {
           </label>
           <input
             className="w-full px-2 py-2 mb-4 leading-tight form-input"
-            placeholder="Barnett Technology LLC"
+            placeholder="Westchase Associates, LP"
             type="text"
             name="company"
           />

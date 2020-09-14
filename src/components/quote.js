@@ -1,5 +1,6 @@
 import React from "react";
 import QuoteBackground from "../images/houston4.jpg";
+import JonBarnett from "../images/jonbarnett.jpeg";
 
 const Quote = () => {
   return (
@@ -32,6 +33,7 @@ const Quote = () => {
             pariatur.
           </p>
           <span className="inline-block w-10 h-1 mt-8 mb-6 bg-blue-400"></span>
+          <img className="w-12 h-12 mx-auto my-2 border border-white rounded-full" src={JonBarnett} alt="Avatar of Jonathan Reinink"/>
           <h2 className="text-xl font-bold text-gray-200">
             JON BARNETT
           </h2>

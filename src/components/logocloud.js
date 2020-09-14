@@ -109,7 +109,7 @@ const LogoCloud = () => {
           </div>
           <div className="flex py-2">
             <Link
-              to="/about/"
+              to="/executives-on-demand"
               className="px-2 py-2 text-blue-400 uppercase rounded text-md hover:bg-gray-800"
             >
               Read More →

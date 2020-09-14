@@ -5,6 +5,10 @@
   "author": "Hayden Barnett <hayden@haydenbarnett.dev>",
   "dependencies": {
     "@afc-org/react-tailwind": "^0.1.1",
+    "@iconify/icons-clarity": "^1.0.0",
+    "@iconify/icons-foundation": "^1.0.5",
+    "@iconify/icons-heroicons-outline": "^1.0.4",
+    "@iconify/icons-ri": "^1.0.1",
     "a17t": "^0.1.4",
     "acorn": "^6.4.1",
     "alpinejs": "^2.7.0",

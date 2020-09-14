@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
+import { Link } from 'gatsby';
 import HeaderAlt from "./headeralt/headeralt";
 import { Icon } from "@iconify/react";
 import facebookFilled from "@iconify/icons-ant-design/facebook-filled";
@@ -252,75 +253,99 @@ function Layout({ children }) {
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a
-                        href="#blank"
+                      <Link
+                        to="/"
                         className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
                       >
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#blank"
+                      <Link
+                        to="/about"
                         className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
                       >
                         About
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#blank"
+                      <Link
+                        to="/services"
                         className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
                       >
                         Services
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#blank"
+                      <Link
+                        to="/resources"
                         className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
                       >
                         Resources
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#blank"
+                      <Link
+                        to="/contact"
                         className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
                       >
                         Contact
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 <div className="w-full pt-6 ml-auto md:w-6/12 xl:w-4/12 md:pt-0 md:px-4">
                   <span className="block mb-2 text-sm font-semibold text-gray-300 uppercase">
-                    Other Resources
+                    Services
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a
-                        href="#blank"
+                      <Link
+                        to="/business-advisory-services"
                         className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
                       >
-                        MIT License
-                      </a>
+                        Business Advisory Services
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#blank"
+                      <Link
+                        to="/nextgen-erp-advisory-services"
                         className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
                       >
-                        Privacy Policy
-                      </a>
+                        NextGen ERP Advisory Services
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="#blank"
                         className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
                       >
-                        Terms & Conditions
-                      </a>
+                        Technology Incubation
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/security-services"
+                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                      >
+                        Security Services
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/business-strategy"
+                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                      >
+                        Business Strategy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/executives-on-demand"
+                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                      >
+                        Executives On-Demand
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -333,11 +358,11 @@ function Layout({ children }) {
               <div className="py-1 text-sm font-semibold text-gray-600">
                 Copyright ©
                 <a
-                  href="https://github.com"
+                  href="https://www.linkedin.com/company/westchase-group-llc"
                   className="text-gray-600 hover:text-blue-400"
                 >
                   {" "}
-                  Westchase Associates LLP
+                  Westchase Associates, LP
                 </a>
                 .
               </div>

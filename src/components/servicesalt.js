@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
 import { Icon } from "@iconify/react";
-import cloudDownloadOutlined from "@iconify/icons-ant-design/cloud-download-outlined";
-import deploymentUnitOutlined from "@iconify/icons-ant-design/deployment-unit-outlined";
-import hddTwotone from "@iconify/icons-ant-design/hdd-twotone";
-import securityScanTwotone from "@iconify/icons-ant-design/security-scan-twotone";
-import codeOutlined from "@iconify/icons-ant-design/code-outlined";
-import syncOutlined from "@iconify/icons-ant-design/sync-outlined";
+import briefcaseIcon from '@iconify/icons-heroicons-outline/briefcase';
+import clipboardList from '@iconify/icons-heroicons-outline/clipboard-list';
+import lightbulbFlashLine from '@iconify/icons-ri/lightbulb-flash-line';
+import shieldCheck from '@iconify/icons-heroicons-outline/shield-check';
+import torsoBusiness from '@iconify/icons-foundation/torso-business';
+import organizationLine from '@iconify/icons-clarity/organization-line';
 
 const ServicesAlt = () => {
   return (
@@ -22,12 +22,12 @@ const ServicesAlt = () => {
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="w-full p-2 md:p-4 xl:w-1/3 md:w-1/3">
-            <Link to="/services">
+            <Link to="/business-advisory-services">
               <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
                 <div className="inline-flex items-center justify-center mb-4 rounded-full">
                   <Icon
-                    icon={cloudDownloadOutlined}
-                    style={{ fontSize: "100px" }}
+                    icon={briefcaseIcon}
+                    style={{ fontSize: "72px" }}
                     className="p-2 text-blue-400"
                   />
                 </div>
@@ -41,12 +41,12 @@ const ServicesAlt = () => {
             </Link>
           </div>
           <div className="w-full p-2 md:p-4 xl:w-1/3 md:w-1/3">
-            <Link to="/services">
+            <Link to="/nextgen-erp-advisory-services">
               <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
                 <div className="inline-flex items-center justify-center mb-4 rounded-full">
                   <Icon
-                    icon={deploymentUnitOutlined}
-                    style={{ fontSize: "100px" }}
+                    icon={clipboardList}
+                    style={{ fontSize: "72px" }}
                     className="p-2 text-blue-400"
                   />
                 </div>
@@ -60,12 +60,12 @@ const ServicesAlt = () => {
             </Link>
           </div>
           <div className="w-full p-2 md:p-4 xl:w-1/3 md:w-1/3">
-            <Link to="/services">
+            <Link to="/technology-incubation">
               <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
                 <div className="inline-flex items-center justify-center mb-4 rounded-full">
                   <Icon
-                    icon={hddTwotone}
-                    style={{ fontSize: "100px" }}
+                    icon={lightbulbFlashLine}
+                    style={{ fontSize: "72px" }}
                     className="p-2 text-blue-400"
                   />
                 </div>
@@ -80,12 +80,12 @@ const ServicesAlt = () => {
             </Link>
           </div>
           <div className="w-full p-2 md:p-4 xl:w-1/3 md:w-1/3">
-            <Link to="/services">
+            <Link to="/security-services">
               <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
                 <div className="inline-flex items-center justify-center mb-4 rounded-full">
                   <Icon
-                    icon={securityScanTwotone}
-                    style={{ fontSize: "100px" }}
+                    icon={shieldCheck}
+                    style={{ fontSize: "72px" }}
                     className="p-2 text-blue-400"
                   />
                 </div>
@@ -99,12 +99,12 @@ const ServicesAlt = () => {
             </Link>
           </div>
           <div className="w-full p-2 md:p-4 xl:w-1/3 md:w-1/3">
-            <Link to="/services">
+            <Link to="/business-strategy">
               <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
                 <div className="inline-flex items-center justify-center mb-4 rounded-full">
                   <Icon
-                    icon={syncOutlined}
-                    style={{ fontSize: "100px" }}
+                    icon={organizationLine}
+                    style={{ fontSize: "72px" }}
                     className="p-2 text-blue-400"
                   />
                 </div>
@@ -118,12 +118,12 @@ const ServicesAlt = () => {
             </Link>
           </div>
           <div className="w-full p-2 md:p-4 xl:w-1/3 md:w-1/3">
-            <Link to="/services">
+            <Link exact to="/executives-on-demand">
               <div className="p-6 text-center transition duration-500 ease-in-out transform bg-white rounded-lg shadow-md cursor-pointer hover:shadow-lg hover:-translate-y-1 hover:scale-105">
                 <div className="inline-flex items-center justify-center mb-4 rounded-full">
                   <Icon
-                    icon={codeOutlined}
-                    style={{ fontSize: "100px" }}
+                    icon={torsoBusiness}
+                    style={{ fontSize: "72px" }}
                     className="p-2 text-blue-400"
                   />
                 </div>
