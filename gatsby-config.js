@@ -13,6 +13,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -36,6 +37,20 @@ module.exports = {
             : []),
         ],
       },
+    },
+    {
+      resolve: '@directus/gatsby-source-directus',
+      options: {
+        url: 'https://rabidzoo.com',
+        project: 'westchase',
+        auth: {
+          email: 'haydenbarnett93@gmail.com',
+          password: 'Tigers07-',
+        },
+        targetStatuses: ['published', 'draft', '__NONE__'],
+        allowCollections: [`blogs`, `directus_files`],
+        downloadFiles: false,
+      }
     },
     {
     resolve: "gatsby-source-filesystem",
