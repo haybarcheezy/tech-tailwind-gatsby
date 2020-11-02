@@ -41,14 +41,14 @@ module.exports = {
     {
       resolve: '@directus/gatsby-source-directus',
       options: {
-        url: 'https://rabidzoo.com',
-        project: 'westchase',
+        url: 'https://haydenbarnett.dev',
+        project: 'westchase-it',
         auth: {
           email: 'haydenbarnett93@gmail.com',
           password: 'Tigers07-',
         },
         targetStatuses: ['published', 'draft', '__NONE__'],
-        allowCollections: [`blogs`, `directus_files`],
+        allowCollections: [`blog`, `directus_files`],
         downloadFiles: false,
       }
     },
