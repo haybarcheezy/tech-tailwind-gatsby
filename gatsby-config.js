@@ -41,7 +41,8 @@ module.exports = {
     {
       resolve: '@directus/gatsby-source-directus',
       options: {
-        url: 'https://haydenbarnett.dev',
+        url: 'haydenbarnett.dev',
+        protocol: 'https',
         project: 'westchase-it',
         auth: {
           email: 'haydenbarnett93@gmail.com',
