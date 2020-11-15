@@ -49,7 +49,7 @@ module.exports = {
           password: 'Tigers07-',
         },
         targetStatuses: ['published', 'draft', '__NONE__'],
-        allowCollections: [`blog`, `directus_files`],
+        allowCollections: [`blog`],
         downloadFiles: false,
       }
     },
