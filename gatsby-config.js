@@ -39,22 +39,6 @@ module.exports = {
       },
     },
     {
-      resolve: '@directus/gatsby-source-directus',
-      options: {
-        url: 'haydenbarnett.dev',
-        protocol: 'https',
-        project: 'Westchase-it',
-        auth: {
-          token: 'r7U8HmLKEe1RfPP0ka74Tx7n',
-          email: 'haydenbarnett93@gmail.com',
-          password: 'Tigers07-',
-        },
-        targetStatuses: ['published', 'draft', '__NONE__'],
-        allowCollections: ['blog', 'directus_files'],
-        downloadFiles: false,
-      }
-    },
-    {
     resolve: "gatsby-source-filesystem",
       options: {
         name: "fonts",

@@ -1,3 +1,4 @@
+/*
 import React from "react";
 import { graphql, Link } from "gatsby";
 import PropTypes from "prop-types";
@@ -110,3 +111,5 @@ export const postQuery = graphql`
 News.propTypes = {
   data: PropTypes.object.isRequired,
 };
+
+*/

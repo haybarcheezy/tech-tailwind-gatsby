@@ -1,3 +1,4 @@
+/*
 const Promise = require('bluebird')
 const path = require('path')
 // import axios from 'axios'
@@ -68,3 +69,5 @@ exports.createPages = async ({
 
     return Promise.all([allItems]);
 }
+
+*/
