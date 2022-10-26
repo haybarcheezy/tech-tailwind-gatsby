@@ -57,12 +57,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-netlify-cache",
-      options: {
-        cachePublic: false,
-      },
-    },
-    {
       resolve: `gatsby-plugin-offline`,
       options: {
         precachePages: [`/about`, `/services`, `/resources`, `/contact`]
