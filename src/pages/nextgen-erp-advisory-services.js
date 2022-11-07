@@ -48,8 +48,9 @@ function NextGen() {
           </div>{" "}
           <div className="lg:py-6 lg:w-1/2 lg:pr-12 flex flex-col flex-wrap -mb-10">
             <div className="flex flex-col flex-wrap w-full mb-2 text-left">
-              <h4 className="md: text-md sm:leading-10 font-bold leading-9 text-blue-400">
-                This is a small intro{" "}
+              <h4 className="md: text-md font-bold text-blue-400">
+              Simplify managing and large cloud - based applications with
+            effecient delivery.{" "}
               </h4>{" "}
               <h2 className="sm:leading-10 text-4xl font-extrabold leading-9 tracking-tight text-gray-900">
                 NextGen ERP Advisory Services{" "}

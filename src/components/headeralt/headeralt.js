@@ -6,8 +6,8 @@ function HeaderAlt() {
 
   return (
     <div className="relative bg-white">
-      <div className="px-4 mx-auto max-w-7xl sm:px-6">
-        <div className="flex items-center justify-between h-16 border-gray-100 border-b-1 md:justify-start md:space-x-10">
+      <div className="max-w-7xl sm:px-6 px-4 mx-auto">
+        <div className="border-b-1 md:justify-start md:space-x-10 flex items-center justify-between h-16 border-gray-100">
           <div className="lg:w-0 lg:flex-1">
             <Link to="/" className="flex">
               <svg
@@ -102,11 +102,11 @@ function HeaderAlt() {
               </svg>
             </Link>
           </div>
-          <div className="-my-2 -mr-2 md:hidden">
+          <div className="md:hidden -my-2 -mr-2">
             <button
               onClick={() => toggleExpansion(!isExpanded)}
               type="button"
-              className="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
+              className="hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md"
             >
               <svg
                 className={`${isExpanded ? `hidden` : `block`} block w-6 h-6`}
@@ -136,11 +136,11 @@ function HeaderAlt() {
               </svg>
             </button>
           </div>
-          <nav className="hidden space-x-10 md:flex">
+          <nav className="md:flex hidden space-x-10">
             <Link
               to="/"
               activeStyle={{ color: "#4A5568" }}
-              className="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+              className="hover:text-gray-900 focus:outline-none focus:text-gray-900 text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out"
             >
               Home
             </Link>
@@ -148,19 +148,19 @@ function HeaderAlt() {
             <Link
               to="/about"
               activeStyle={{ color: "#4A5568" }}
-              className="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+              className="hover:text-gray-900 focus:outline-none focus:text-gray-900 text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out"
             >
               About
             </Link>
-            <div className="relative dropdown">
+            <div className="dropdown relative">
               <button
                 onClick={() => toggleExpansion(!isExpanded)}
                 type="button"
-                className="inline-flex items-center space-x-2 text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out focus:text-gray-900 group hover:text-gray-900 focus:outline-none "
+                className="focus:text-gray-900 group hover:text-gray-900 focus:outline-none  inline-flex items-center space-x-2 text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out"
               >
                 <span>Services</span>
                 <svg
-                  className="w-5 h-5 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-500 "
+                  className="group-hover:text-gray-500 group-focus:text-gray-500  w-5 h-5 text-gray-400"
                   width="32"
                   height="32"
                   viewBox="0 0 32 32"
@@ -180,11 +180,11 @@ function HeaderAlt() {
               >
                 <div className="rounded-lg shadow-lg">
                   <div className="overflow-hidden rounded-lg shadow-xs">
-                    <div className="relative z-20 grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
+                    <div className="sm:gap-8 sm:p-8 relative z-20 grid gap-6 px-5 py-6 bg-white">
                       <Link
                         to="/business-advisory-services"
                         activeStyle={{ color: "#4A5568" }}
-                        className="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-gray-300"
+                        className="hover:bg-gray-300 flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg"
                       >
                         <svg
                           className="flex-shrink-0 w-6 h-6 text-blue-400"
@@ -212,7 +212,7 @@ function HeaderAlt() {
                       <Link
                         to="/nextgen-erp-advisory-services"
                         activeStyle={{ color: "#000000" }}
-                        className="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-gray-300"
+                        className="hover:bg-gray-300 flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg"
                       >
                         <svg
                           className="flex-shrink-0 w-6 h-6 text-blue-400"
@@ -239,7 +239,7 @@ function HeaderAlt() {
                       </Link>
                       <Link
                         to="/technology-incubation"
-                        className="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-gray-300"
+                        className="hover:bg-gray-300 flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg"
                       >
                         <svg
                           className="flex-shrink-0 w-6 h-6 text-blue-400"
@@ -267,7 +267,7 @@ function HeaderAlt() {
                       </Link>
                       <Link
                         to="/security-services"
-                        className="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-gray-300"
+                        className="hover:bg-gray-300 flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg"
                       >
                         <svg
                           className="flex-shrink-0 w-6 h-6 text-blue-400"
@@ -293,10 +293,10 @@ function HeaderAlt() {
                       </Link>
                       <Link
                         to="/business-strategy"
-                        className="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-gray-300"
+                        className="hover:bg-gray-300 flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg"
                       >
                         <svg
-                          className="flex-shrink-0 w-6 h-6 text-blue-400 "
+                          className=" flex-shrink-0 w-6 h-6 text-blue-400"
                           width="24"
                           height="24"
                           viewBox="0 0 24 24"
@@ -331,8 +331,8 @@ function HeaderAlt() {
                         </div>
                       </Link>
                       <Link
-                        to="executives-on-demand"
-                        className="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-gray-300"
+                        to="/executives-on-demand"
+                        className="hover:bg-gray-300 flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg"
                       >
                         <svg
                           className="flex-shrink-0 w-6 h-6 text-blue-400"
@@ -366,19 +366,19 @@ function HeaderAlt() {
             <Link
               to="/resources"
               activeStyle={{ color: "#000000" }}
-              className="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+              className="hover:text-gray-900 focus:outline-none focus:text-gray-900 text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out"
             >
               Resources
             </Link>
             <Link
               to="/contact"
               activeStyle={{ color: "#000000" }}
-              className="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+              className="hover:text-gray-900 focus:outline-none focus:text-gray-900 text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out"
             >
               Contact
             </Link>
           </nav>
-          <div className="items-center justify-end hidden space-x-8 md:flex md:flex-1 lg:w-0">
+          <div className="md:flex md:flex-1 lg:w-0 items-center justify-end hidden space-x-8">
             <span className="inline-flex">
               <a
                 href="https://www.linkedin.com/company/westchase-group-llc"
@@ -387,7 +387,7 @@ function HeaderAlt() {
                 className="inline-flex items-center justify-center px-2 py-2 text-base"
               >
                 <svg
-                  className="text-gray-700 hover:text-gray-900"
+                  className="hover:text-gray-900 text-gray-700"
                   width="26"
                   height="26"
                   viewBox="0 0 26 26"
@@ -405,7 +405,7 @@ function HeaderAlt() {
                 className="inline-flex items-center justify-center px-2 py-2 text-base"
               >
                 <svg
-                  className="text-gray-700 hover:text-gray-900"
+                  className="hover:text-gray-900 text-gray-700"
                   width="25"
                   height="25"
                   viewBox="0 0 25 25"
@@ -430,13 +430,13 @@ function HeaderAlt() {
         } absolute inset-x-0 p-2 transition origin-top-right transform top-4 md:hidden`}
       >
         <div className="rounded-lg shadow-lg">
-          <div className="bg-white divide-y-2 rounded-lg shadow-xs divide-gray-50">
+          <div className="divide-gray-50 bg-white divide-y-2 rounded-lg shadow-xs">
             <div className="px-5 pt-5 pb-6 space-y-6">
               <div>
                 <nav className="grid row-gap-8">
                   <Link
                     to="/business-advisory-services"
-                    className="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-300"
+                    className="hover:bg-gray-300 flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md"
                   >
                     <svg
                       className="flex-shrink-0 w-6 h-6 text-blue-400"
@@ -457,7 +457,7 @@ function HeaderAlt() {
                   </Link>
                   <Link
                     to="#"
-                    className="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-300"
+                    className="hover:bg-gray-300 flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md"
                   >
                     <svg
                       className="flex-shrink-0 w-6 h-6 text-blue-400"
@@ -478,7 +478,7 @@ function HeaderAlt() {
                   </Link>
                   <Link
                     to="#"
-                    className="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-300"
+                    className="hover:bg-gray-300 flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md"
                   >
                     <svg
                       className="flex-shrink-0 w-6 h-6 text-blue-400"
@@ -499,7 +499,7 @@ function HeaderAlt() {
                   </Link>
                   <Link
                     to="#"
-                    className="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-300"
+                    className="hover:bg-gray-300 flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md"
                   >
                     <svg
                       className="flex-shrink-0 w-6 h-6 text-blue-400"
@@ -520,7 +520,7 @@ function HeaderAlt() {
                   </Link>
                   <Link
                     to="#"
-                    className="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-300"
+                    className="hover:bg-gray-300 flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md"
                   >
                     <svg
                       className="flex-shrink-0 w-6 h-6 text-blue-400"
@@ -541,7 +541,7 @@ function HeaderAlt() {
                   </Link>
                   <Link
                     to="#"
-                    className="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-300"
+                    className="hover:bg-gray-300 flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md"
                   >
                     <svg
                       className="flex-shrink-0 w-6 h-6 text-blue-400"
@@ -567,49 +567,49 @@ function HeaderAlt() {
               <div className="grid grid-cols-2 row-gap-4 col-gap-8">
                 <a
                   href="#"
-                  className="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
+                  className="hover:text-gray-700 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out"
                 >
                   Home
                 </a>
                 <a
                   href="#"
-                  className="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
+                  className="hover:text-gray-700 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out"
                 >
                   About
                 </a>
                 <a
                   href="#"
-                  className="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
+                  className="hover:text-gray-700 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out"
                 >
                   Enterprise
                 </a>
                 <a
                   href="#"
-                  className="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
+                  className="hover:text-gray-700 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out"
                 >
                   Blog
                 </a>
                 <a
                   href="#"
-                  className="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
+                  className="hover:text-gray-700 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out"
                 >
                   Resources
                 </a>
                 <a
                   href="#"
-                  className="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
+                  className="hover:text-gray-700 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out"
                 >
                   Guides
                 </a>
                 <a
                   href="#"
-                  className="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
+                  className="hover:text-gray-700 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out"
                 >
                   Security
                 </a>
                 <a
                   href="#"
-                  className="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"
+                  className="hover:text-gray-700 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out"
                 >
                   Events
                 </a>
@@ -618,7 +618,7 @@ function HeaderAlt() {
                 <span className="flex w-full rounded-md shadow-sm">
                   <a
                     href="#"
-                    className="flex items-center justify-center w-full px-4 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-400 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700"
+                    className="hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 flex items-center justify-center w-full px-4 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-400 border border-transparent rounded-md"
                   >
                     Contact
                   </a>

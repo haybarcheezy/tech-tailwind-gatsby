@@ -6,21 +6,19 @@ import Newsletter from "../components/newsletter";
 import ServicesAlt from "../components/servicesalt";
 import Contact from "../components/contact";
 import Quote from "../components/quote";
-import Blog from "../components/blog";
 import LogoCloud from "../components/logocloud"
 
 function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`Westchase Associates`, `Westchase Consulting`, `Technology Consulting`, `Houston Texas Consultants`]}
         title="Home"
       />
       <Hero />
       <LogoCloud />
       <ServicesAlt />
       <Quote />
-      <Blog />
       <Newsletter />
       <Contact />
     </Layout>

@@ -28,7 +28,7 @@ function BusinessAdvisoryServices() {
         </h1>
         <div className="w-20 h-2 my-4 bg-blue-400" />
         <h3 className="text-left text-gray-200">
-          Small intro to about page text.
+        From strengthening financial growth, to providing insights.
         </h3>
       </div>
     </section>
@@ -43,8 +43,8 @@ function BusinessAdvisoryServices() {
         </div>
         <div className="lg:py-6 lg:w-1/2 lg:pl-12 flex flex-col flex-wrap -mb-10">
           <div className="flex flex-col flex-wrap w-full mb-2 text-left">
-            <h4 className="md: text-md sm:leading-10 font-bold leading-9 text-blue-400">
-            From strengthening financial growth, to providing insights: we have a solution for you.
+            <h4 className="md: text-md font-bold text-blue-400">
+            We have a solution for you.
             </h4>
             <h2 className="sm:leading-10 text-4xl font-extrabold leading-9 tracking-tight text-gray-900">
               Business Advisory Services
