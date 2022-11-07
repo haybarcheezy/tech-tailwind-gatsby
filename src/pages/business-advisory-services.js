@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import WorkersImg from "../images/engineers.jpg";
 import ServicesAlt from "../components/servicesalt"
-import Placeholder from "../images/placeholder.jpg";
+import AdivsoryImg from "../images/advisory.jpg";
 
 
 function BusinessAdvisoryServices() {
@@ -14,7 +14,7 @@ function BusinessAdvisoryServices() {
         title="Business Advisory Services"
       />
       <section
-      className="text-gray-700 border-t border-gray-200 body-font"
+      className="body-font text-gray-700 border-t border-gray-200"
       style={{
         backgroundImage: `url(${WorkersImg})`,
         backgroundSize: "cover",
@@ -23,7 +23,7 @@ function BusinessAdvisoryServices() {
       }}
     >
       <div className="container px-5 py-24 mx-auto mt-6">
-        <h1 className="text-5xl font-extrabold leading-tight text-gray-100 md:leading-9">
+        <h1 className="md:leading-9 text-5xl font-extrabold leading-tight text-gray-100">
           Business Advisory Services
         </h1>
         <div className="w-20 h-2 my-4 bg-blue-400" />
@@ -32,45 +32,37 @@ function BusinessAdvisoryServices() {
         </h3>
       </div>
     </section>
-      <section className="text-gray-700 border-t border-gray-200 body-font">
+      <section className="body-font text-gray-700 border-t border-gray-200">
       <div className="container flex flex-wrap px-5 py-24 mx-auto">
-        <div className="w-full mb-10 overflow-hidden rounded-lg lg:w-1/2 lg:mb-0">
+        <div className="lg:w-1/2 lg:mb-0 w-full mb-10 overflow-hidden rounded-lg">
           <img
             alt="feature"
             className="object-cover object-center w-full h-full"
-            src={Placeholder}
+            src={AdivsoryImg}
           />
         </div>
-        <div className="flex flex-col flex-wrap -mb-10 lg:py-6 lg:w-1/2 lg:pl-12">
+        <div className="lg:py-6 lg:w-1/2 lg:pl-12 flex flex-col flex-wrap -mb-10">
           <div className="flex flex-col flex-wrap w-full mb-2 text-left">
-            <h4 className="font-bold leading-9 text-blue-400 md: text-md sm:leading-10">
-              This is a small intro
+            <h4 className="md: text-md sm:leading-10 font-bold leading-9 text-blue-400">
+            From strengthening financial growth, to providing insights: we have a solution for you.
             </h4>
-            <h2 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 sm:leading-10">
+            <h2 className="sm:leading-10 text-4xl font-extrabold leading-9 tracking-tight text-gray-900">
               Business Advisory Services
             </h2>
           </div>
           <div>
             <p className="mt-3 mb-4 text-base leading-6 text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Enterprise application modernization and optimization can be deployed in a phased approach. Selecting the right method for business demands depends on the type of applications, IT skillsets, infrastructure, budget, and governance requirements. The scope of enterprise application optimization ranges from reducing application costs to increasing service levels to improving employee accessibility.
             </p>
           </div>
           <div>
             <p className="mt-3 mb-4 text-base leading-6 text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            There’s no denying it: Enterprise applications are proliferating. As a leader in your respective sector, your role is evolving from being mere administrator to application steward. Have you ever wondered whether your enterprise applications are aging at the same rate as the hardware they run on? Are their opportunities to modernize and optimize these applications? Is it possible to reduce the costs of managing all these different software products under one roof?
             </p>
+          </div>
+          <div>
+            <p className="mt-3 mb-4 text-base leading-6 text-gray-500">
+            Whether you manage a small business or a multi-billion dollar enterprise, an important area to focus on in the digital environment is enterprise application management. This relies on the ability to monitor the performance of core enterprise applications and IT systems and ultimately optimize their performance and availability.</p>
           </div>
         </div>
         </div>
