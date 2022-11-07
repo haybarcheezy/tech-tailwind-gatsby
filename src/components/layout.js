@@ -3,9 +3,7 @@ import React from "react";
 import { Link } from 'gatsby';
 import HeaderAlt from "./headeralt/headeralt";
 import { Icon } from "@iconify/react";
-import facebookFilled from "@iconify/icons-ant-design/facebook-filled";
 import linkedinFilled from "@iconify/icons-ant-design/linkedin-filled";
-import githubFilled from "@iconify/icons-ant-design/github-filled";
 
 function Layout({ children }) {
   return (
@@ -35,7 +33,7 @@ function Layout({ children }) {
         </div>
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap">
-            <div className="w-full px-4 lg:w-6/12">
+            <div className="lg:w-6/12 w-full px-4">
               <svg
                 width="293"
                 height="40"
@@ -203,51 +201,35 @@ function Layout({ children }) {
                 />
               </svg>
               <div className="mt-6">
-                <a
-                  href="https://facebook.com/"
-                  className="items-center justify-center inline-block p-2 mr-2 text-center bg-gray-400 rounded-full shadow-lg outline-none hover:bg-white align-center focus:outline-none"
-                >
-                  <Icon
-                    icon={facebookFilled}
-                    style={{ color: "#3b5998", fontSize: "24px" }}
-                  />
-                </a>
+                
                 <a
                   href="https://linkedin.com/company/westchase-group-llc"
-                  className="items-center justify-center inline-block p-2 mr-2 text-center bg-gray-400 rounded-full shadow-lg outline-none hover:bg-white align-center focus:outline-none"
+                  className="hover:bg-white align-center focus:outline-none items-center justify-center inline-block p-2 mr-2 text-center bg-gray-400 rounded-full shadow-lg outline-none"
                 >
                   <Icon
                     icon={linkedinFilled}
                     style={{ color: "#0E76A8", fontSize: "24px" }}
                   />
                 </a>
-                <a
-                  href="https://github.com/"
-                  className="items-center justify-center inline-block p-2 mr-2 text-center bg-gray-400 rounded-full shadow-lg outline-none hover:bg-white align-center focus:outline-none"
-                >
-                  <Icon
-                    icon={githubFilled}
-                    style={{ color: "#24292e", fontSize: "24px" }}
-                  />
-                </a>
+                
               </div>
               <p className="mt-6 text-sm font-semibold text-gray-600">
                 Currently v1.0.0. Code
-                <a href="#blank" className="text-gray-700 hover:text-white">
+                <a href="#blank" className="hover:text-white text-gray-700">
                   {" "}
                   licensed MIT
                 </a>
                 , docs
-                <a href="#blank" className="text-gray-700 hover:text-white">
+                <a href="#blank" className="hover:text-white text-gray-700">
                   {" "}
                   CC by 4.0
                 </a>
                 .
               </p>
             </div>
-            <div className="w-full px-4 lg:w-6/12">
-              <div className="flex flex-wrap mb-6 items-top">
-                <div className="w-full pt-6 ml-auto md:w-6/12 xl:w-4/12 md:pt-0 md:px-4">
+            <div className="lg:w-6/12 w-full px-4">
+              <div className="items-top flex flex-wrap mb-6">
+                <div className="md:w-6/12 xl:w-4/12 md:pt-0 md:px-4 w-full pt-6 ml-auto">
                   <span className="block mb-2 text-sm font-semibold text-gray-300 uppercase">
                     Useful Links
                   </span>
@@ -255,7 +237,7 @@ function Layout({ children }) {
                     <li>
                       <Link
                         to="/"
-                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                        className="hover:text-blue-400 font-regular block pb-2 text-sm text-gray-700"
                       >
                         Home
                       </Link>
@@ -263,7 +245,7 @@ function Layout({ children }) {
                     <li>
                       <Link
                         to="/about"
-                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                        className="hover:text-blue-400 font-regular block pb-2 text-sm text-gray-700"
                       >
                         About
                       </Link>
@@ -271,7 +253,7 @@ function Layout({ children }) {
                     <li>
                       <Link
                         to="/services"
-                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                        className="hover:text-blue-400 font-regular block pb-2 text-sm text-gray-700"
                       >
                         Services
                       </Link>
@@ -279,7 +261,7 @@ function Layout({ children }) {
                     <li>
                       <Link
                         to="/resources"
-                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                        className="hover:text-blue-400 font-regular block pb-2 text-sm text-gray-700"
                       >
                         Resources
                       </Link>
@@ -287,14 +269,14 @@ function Layout({ children }) {
                     <li>
                       <Link
                         to="/contact"
-                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                        className="hover:text-blue-400 font-regular block pb-2 text-sm text-gray-700"
                       >
                         Contact
                       </Link>
                     </li>
                   </ul>
                 </div>
-                <div className="w-full pt-6 ml-auto md:w-6/12 xl:w-4/12 md:pt-0 md:px-4">
+                <div className="md:w-6/12 xl:w-4/12 md:pt-0 md:px-4 w-full pt-6 ml-auto">
                   <span className="block mb-2 text-sm font-semibold text-gray-300 uppercase">
                     Services
                   </span>
@@ -302,7 +284,7 @@ function Layout({ children }) {
                     <li>
                       <Link
                         to="/business-advisory-services"
-                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                        className="hover:text-blue-400 font-regular block pb-2 text-sm text-gray-700"
                       >
                         Business Advisory Services
                       </Link>
@@ -310,7 +292,7 @@ function Layout({ children }) {
                     <li>
                       <Link
                         to="/nextgen-erp-advisory-services"
-                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                        className="hover:text-blue-400 font-regular block pb-2 text-sm text-gray-700"
                       >
                         NextGen ERP Advisory Services
                       </Link>
@@ -318,7 +300,7 @@ function Layout({ children }) {
                     <li>
                       <Link
                         href="#blank"
-                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                        className="hover:text-blue-400 font-regular block pb-2 text-sm text-gray-700"
                       >
                         Technology Incubation
                       </Link>
@@ -326,7 +308,7 @@ function Layout({ children }) {
                     <li>
                       <Link
                         href="/security-services"
-                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                        className="hover:text-blue-400 font-regular block pb-2 text-sm text-gray-700"
                       >
                         Security Services
                       </Link>
@@ -334,7 +316,7 @@ function Layout({ children }) {
                     <li>
                       <Link
                         to="/business-strategy"
-                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                        className="hover:text-blue-400 font-regular block pb-2 text-sm text-gray-700"
                       >
                         Business Strategy
                       </Link>
@@ -342,7 +324,7 @@ function Layout({ children }) {
                     <li>
                       <Link
                         to="/executives-on-demand"
-                        className="block pb-2 text-sm text-gray-700 hover:text-blue-400 font-regular"
+                        className="hover:text-blue-400 font-regular block pb-2 text-sm text-gray-700"
                       >
                         Executives On-Demand
                       </Link>
@@ -353,13 +335,13 @@ function Layout({ children }) {
             </div>
           </div>
           <hr className="my-4 border-gray-400"></hr>
-          <div className="flex flex-wrap items-center justify-center md:justify-between">
-            <div className="w-full px-4 mx-auto text-center md:w-4/12">
+          <div className="md:justify-between flex flex-wrap items-center justify-center">
+            <div className="md:w-4/12 w-full px-4 mx-auto text-center">
               <div className="py-1 text-sm font-semibold text-gray-600">
                 Copyright ©
                 <a
                   href="https://www.linkedin.com/company/westchase-group-llc"
-                  className="text-gray-600 hover:text-blue-400"
+                  className="hover:text-blue-400 text-gray-600"
                 >
                   {" "}
                   Westchase Associates, LP
